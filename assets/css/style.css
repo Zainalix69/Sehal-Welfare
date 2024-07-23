@@ -1,5 +1,5 @@
 /*
-@File: Huruma Template Styles
+@File: Sehal Welfare Template Styles
 
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
@@ -350,22 +350,22 @@ Header Area CSS
 /*================================================
 Navbar Area CSS
 =================================================*/
-.huruma-responsive-nav {
+.Sehal Welfare-responsive-nav {
   display: none;
 }
 
-.huruma-nav {
+.Sehal Welfare-nav {
   background-color: transparent;
   position: relative;
 }
-.huruma-nav .navbar {
+.Sehal Welfare-nav .navbar {
   transition: 0.5s;
   padding-right: 0;
   padding-top: 0;
   padding-left: 0;
   padding-bottom: 0;
 }
-.huruma-nav .navbar .navbar-brand {
+.Sehal Welfare-nav .navbar .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -374,27 +374,27 @@ Navbar Area CSS
   bottom: -10px;
   z-index: 1;
 }
-.huruma-nav .navbar .navbar-brand img:last-child {
+.Sehal Welfare-nav .navbar .navbar-brand img:last-child {
   display: none;
 }
-.huruma-nav .navbar ul {
+.Sehal Welfare-nav .navbar ul {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
 }
-.huruma-nav .navbar .navbar-nav {
+.Sehal Welfare-nav .navbar .navbar-nav {
   margin-left: auto;
 }
-.huruma-nav .navbar .navbar-nav .nav-item {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item {
   position: relative;
   padding: 0;
 }
-.huruma-nav .navbar .navbar-nav .nav-item span {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item span {
   display: block;
   font-size: 12px;
   color: #918ac5;
 }
-.huruma-nav .navbar .navbar-nav .nav-item a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item a {
   font-size: 16px;
   color: #ffffff;
   text-transform: capitalize;
@@ -405,12 +405,12 @@ Navbar Area CSS
   margin-left: 14px;
   margin-right: 14px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item a:hover, .huruma-nav .navbar .navbar-nav .nav-item a:focus, .huruma-nav .navbar .navbar-nav .nav-item a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item a.active {
   color: #ff6015;
   position: relative;
   transition: 0.5s;
 }
-.huruma-nav .navbar .navbar-nav .nav-item a i {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item a i {
   font-size: 16px;
   position: relative;
   top: 2px;
@@ -418,17 +418,17 @@ Navbar Area CSS
   margin-left: -4px;
   margin-right: -4px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item:last-child a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item:last-child a {
   margin-right: 0;
 }
-.huruma-nav .navbar .navbar-nav .nav-item:first-child a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item:first-child a {
   margin-left: 0;
 }
-.huruma-nav .navbar .navbar-nav .nav-item:hover a, .huruma-nav .navbar .navbar-nav .nav-item.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item:hover a, .Sehal Welfare-nav .navbar .navbar-nav .nav-item.active a {
   color: #ff6015;
   transition: 0.5s;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
   background: #ffffff;
   position: absolute;
@@ -448,13 +448,13 @@ Navbar Area CSS
   padding-right: 5px;
   padding-bottom: 20px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
   padding-bottom: 0;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
   text-transform: capitalize;
   padding: 8px 15px;
   margin: 0;
@@ -463,148 +463,148 @@ Navbar Area CSS
   font-size: 15.5px;
   font-weight: 400;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #ff6015;
   letter-spacing: 1px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
   display: none;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
   left: -255px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
   color: #2f2c52;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: 220px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #2f2c52;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #2f2c52;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #2f2c52;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #2f2c52;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
   left: -250px;
   top: 0;
   opacity: 0;
   visibility: hidden;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
   color: #2f2c52;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
   color: #ff6015;
 }
-.huruma-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: -15px;
 }
-.huruma-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
+.Sehal Welfare-nav .navbar .navbar-nav .nav-item:hover .dropdown-menu {
   opacity: 1;
   visibility: visible;
   top: 100%;
   margin-top: 0;
 }
-.huruma-nav .navbar .others-options {
+.Sehal Welfare-nav .navbar .others-options {
   margin-left: 100px;
 }
-.huruma-nav .navbar .others-options .language-switcher {
+.Sehal Welfare-nav .navbar .others-options .language-switcher {
   position: relative;
   top: -1px;
   outline: 0;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-toggle {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-toggle {
   padding: 0;
   border: none;
   background-color: transparent;
@@ -612,28 +612,28 @@ Navbar Area CSS
   outline: 0;
   cursor: pointer;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-toggle::after {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-toggle::after {
   display: none;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-toggle img {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-toggle img {
   width: 35px;
   border-radius: 5px;
   border: 3px solid #ffffff;
   position: relative;
   top: -2px;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-toggle span {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-toggle span {
   display: inline-block;
   margin-left: 3px;
   color: #ffffff;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-toggle span i {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-toggle span i {
   position: relative;
   font-size: 20px;
   top: 4px;
   margin-left: -3px;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu {
   padding: 15px;
   float: unset;
   border: none;
@@ -645,43 +645,43 @@ Navbar Area CSS
   visibility: visible;
   transition: 0.5s;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item {
   padding: 0;
   color: #2f2c52;
   margin-bottom: 10px;
   font-weight: 500;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:last-child {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:last-child {
   margin-bottom: 0;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item img {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item img {
   width: 40px;
   border-radius: 5px;
   border: 3px solid #ffffff;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item span {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item span {
   display: inline-block;
   margin-left: 5px;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:hover, .huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:focus {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:hover, .Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:focus {
   background-color: transparent !important;
   outline: 0;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:active, .huruma-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item.active {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item:active, .Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu .dropdown-item.active {
   color: #2f2c52;
   background-color: transparent;
 }
-.huruma-nav .navbar .others-options .language-switcher .dropdown-menu.show {
+.Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-menu.show {
   opacity: 1;
   visibility: visible;
 }
-.huruma-nav .navbar .others-options .option-item {
+.Sehal Welfare-nav .navbar .others-options .option-item {
   color: #2f2c52;
   display: inline-block;
   position: relative;
   line-height: 1;
 }
-.huruma-nav .navbar .others-options .option-item .search-btn {
+.Sehal Welfare-nav .navbar .others-options .option-item .search-btn {
   display: block;
   color: #ffffff;
   width: 35px;
@@ -694,15 +694,15 @@ Navbar Area CSS
   cursor: pointer;
   transition: 0.5s;
 }
-.huruma-nav .navbar .others-options .option-item .search-btn:hover {
+.Sehal Welfare-nav .navbar .others-options .option-item .search-btn:hover {
   background-color: #ff6015;
   border: 1px solid #ff6015;
   color: #ffffff;
 }
-.huruma-nav .navbar .others-options .option-item .search-btn i {
+.Sehal Welfare-nav .navbar .others-options .option-item .search-btn i {
   font-size: 16px;
 }
-.huruma-nav .navbar .others-options .option-item .close-btn {
+.Sehal Welfare-nav .navbar .others-options .option-item .close-btn {
   display: none;
   color: #ffffff;
   width: 35px;
@@ -715,18 +715,18 @@ Navbar Area CSS
   cursor: pointer;
   transition: 0.5s;
 }
-.huruma-nav .navbar .others-options .option-item .close-btn:hover {
+.Sehal Welfare-nav .navbar .others-options .option-item .close-btn:hover {
   background-color: #ff6015;
   border: 1px solid #ff6015;
   color: #ffffff;
 }
-.huruma-nav .navbar .others-options .option-item .close-btn i {
+.Sehal Welfare-nav .navbar .others-options .option-item .close-btn i {
   font-size: 16px;
 }
-.huruma-nav .navbar .others-options .option-item .close-btn.active {
+.Sehal Welfare-nav .navbar .others-options .option-item .close-btn.active {
   display: block;
 }
-.huruma-nav .navbar .others-options .burger-menu {
+.Sehal Welfare-nav .navbar .others-options .burger-menu {
   width: 70px;
   height: 92px;
   line-height: 90px;
@@ -742,18 +742,18 @@ Navbar Area CSS
   border-radius: 0;
   transition: 0.5s;
 }
-.huruma-nav .navbar .others-options .burger-menu i {
+.Sehal Welfare-nav .navbar .others-options .burger-menu i {
   position: relative;
   top: 5px;
 }
-.huruma-nav .navbar .others-options .burger-menu .menu-icon {
+.Sehal Welfare-nav .navbar .others-options .burger-menu .menu-icon {
   top: 0 !important;
 }
-.huruma-nav .navbar .others-options .burger-menu:hover {
+.Sehal Welfare-nav .navbar .others-options .burger-menu:hover {
   background-color: #ff6015;
   color: #ffffff;
 }
-.huruma-nav .navbar .others-options .burger-menu i::before {
+.Sehal Welfare-nav .navbar .others-options .burger-menu i::before {
   line-height: normal;
   font-size: 30px;
 }
@@ -857,12 +857,12 @@ Navbar Area CSS
   color: #2f2c52;
   background-color: #ff6015;
 }
-.navbar-style-two.is-sticky .huruma-nav .navbar {
+.navbar-style-two.is-sticky .Sehal Welfare-nav .navbar {
   box-shadow: unset;
   padding-left: 0;
   padding-right: 0;
 }
-.navbar-style-two .huruma-nav .navbar {
+.navbar-style-two .Sehal Welfare-nav .navbar {
   background-color: #ffffff;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   transition: 0.5s;
@@ -871,33 +871,33 @@ Navbar Area CSS
   padding-left: 25px;
   padding-bottom: 0;
 }
-.navbar-style-two .huruma-nav .navbar .navbar-nav .nav-item a {
+.navbar-style-two .Sehal Welfare-nav .navbar .navbar-nav .nav-item a {
   color: #2f2c52;
 }
-.navbar-style-two .huruma-nav .navbar .navbar-nav .nav-item a:hover, .navbar-style-two .huruma-nav .navbar .navbar-nav .nav-item a:focus, .navbar-style-two .huruma-nav .navbar .navbar-nav .nav-item a.active {
+.navbar-style-two .Sehal Welfare-nav .navbar .navbar-nav .nav-item a:hover, .navbar-style-two .Sehal Welfare-nav .navbar .navbar-nav .nav-item a:focus, .navbar-style-two .Sehal Welfare-nav .navbar .navbar-nav .nav-item a.active {
   color: #ff6015;
   position: relative;
   transition: 0.5s;
 }
-.navbar-style-two .huruma-nav .navbar .others-options {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options {
   margin-left: 50px;
 }
-.navbar-style-two .huruma-nav .navbar .others-options .language-switcher .dropdown-toggle span {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options .language-switcher .dropdown-toggle span {
   color: #2f2c52;
 }
-.navbar-style-two .huruma-nav .navbar .others-options .option-item .search-btn {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options .option-item .search-btn {
   color: #2f2c52;
 }
-.navbar-style-two .huruma-nav .navbar .others-options .option-item .search-btn:hover {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options .option-item .search-btn:hover {
   color: #ffffff;
 }
-.navbar-style-two .huruma-nav .navbar .others-options .option-item .close-btn {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options .option-item .close-btn {
   color: #2f2c52;
 }
-.navbar-style-two .huruma-nav .navbar .others-options .option-item .close-btn:hover {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options .option-item .close-btn:hover {
   color: #ffffff;
 }
-.navbar-style-two .huruma-nav .navbar .others-options .burger-menu {
+.navbar-style-two .Sehal Welfare-nav .navbar .others-options .burger-menu {
   background-color: transparent;
   color: #ff6015;
   position: relative;
@@ -1615,49 +1615,49 @@ Navbar Area CSS
 }
 
 @media only screen and (max-width: 991px) {
-  .huruma-responsive-nav {
+  .Sehal Welfare-responsive-nav {
     display: block;
   }
-  .huruma-responsive-nav .huruma-responsive-menu {
+  .Sehal Welfare-responsive-nav .Sehal Welfare-responsive-menu {
     position: relative;
   }
-  .huruma-responsive-nav .huruma-responsive-menu.mean-container .mean-nav ul {
+  .Sehal Welfare-responsive-nav .Sehal Welfare-responsive-menu.mean-container .mean-nav ul {
     font-size: 15px;
   }
-  .huruma-responsive-nav .huruma-responsive-menu.mean-container .mean-nav ul li a.active {
+  .Sehal Welfare-responsive-nav .Sehal Welfare-responsive-menu.mean-container .mean-nav ul li a.active {
     color: #ff6015;
   }
-  .huruma-responsive-nav .huruma-responsive-menu.mean-container .mean-nav ul li li a {
+  .Sehal Welfare-responsive-nav .Sehal Welfare-responsive-menu.mean-container .mean-nav ul li li a {
     font-size: 14px;
   }
-  .huruma-responsive-nav .huruma-responsive-menu.mean-container .navbar-nav {
+  .Sehal Welfare-responsive-nav .Sehal Welfare-responsive-menu.mean-container .navbar-nav {
     overflow-y: scroll;
     height: 336px;
     background-color: #ffffff;
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
   }
-  .huruma-responsive-nav .mean-container a.meanmenu-reveal {
+  .Sehal Welfare-responsive-nav .mean-container a.meanmenu-reveal {
     color: #2f2c52;
   }
-  .huruma-responsive-nav .mean-container a.meanmenu-reveal span {
+  .Sehal Welfare-responsive-nav .mean-container a.meanmenu-reveal span {
     background: #2f2c52;
     position: relative;
     top: 8px;
     margin-top: -5.8px;
     border-radius: 5px;
   }
-  .huruma-responsive-nav .mean-container .others-option {
+  .Sehal Welfare-responsive-nav .mean-container .others-option {
     display: none;
   }
-  .huruma-responsive-nav .logo {
+  .Sehal Welfare-responsive-nav .logo {
     position: relative;
     width: 50%;
     z-index: 999;
   }
-  .huruma-responsive-nav .logo .white-logo {
+  .Sehal Welfare-responsive-nav .logo .white-logo {
     display: none;
   }
-  .huruma-responsive-nav .logo .black-logo {
+  .Sehal Welfare-responsive-nav .logo .black-logo {
     display: block;
   }
   .navbar-area {
@@ -1667,7 +1667,7 @@ Navbar Area CSS
     padding-top: 15px;
     padding-bottom: 15px;
   }
-  .huruma-nav {
+  .Sehal Welfare-nav {
     display: none;
   }
 }
@@ -5042,18 +5042,18 @@ Sidebar Widget Area Style
 .widget-area .widget_search form button:hover {
   background-color: #2f2c52;
 }
-.widget-area .widget_huruma_posts_thumb {
+.widget-area .widget_Sehal Welfare_posts_thumb {
   position: relative;
   overflow: hidden;
 }
-.widget-area .widget_huruma_posts_thumb .item {
+.widget-area .widget_Sehal Welfare_posts_thumb .item {
   overflow: hidden;
   margin-bottom: 20px;
 }
-.widget-area .widget_huruma_posts_thumb .item:last-child {
+.widget-area .widget_Sehal Welfare_posts_thumb .item:last-child {
   margin-bottom: 0;
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb {
   float: left;
   height: 80px;
   overflow: hidden;
@@ -5061,7 +5061,7 @@ Sidebar Widget Area Style
   width: 80px;
   margin-right: 15px;
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb .fullimage {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage {
   width: 80px;
   height: 80px;
   display: inline-block;
@@ -5069,25 +5069,25 @@ Sidebar Widget Area Style
   background-repeat: no-repeat;
   background-position: center center !important;
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb .fullimage.bg1 {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg1 {
   background-image: url(../img/causes-details/1.jpg);
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb .fullimage.bg2 {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg2 {
   background-image: url(../img/causes-details/2.jpg);
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb .fullimage.bg3 {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg3 {
   background-image: url(../img/causes-details/3.jpg);
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb .fullimage.bg4 {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg4 {
   background-image: url(../img/causes-details/4.jpg);
 }
-.widget-area .widget_huruma_posts_thumb .item .thumb .fullimage.bg5 {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg5 {
   background-image: url(../img/causes-details/5.jpg);
 }
-.widget-area .widget_huruma_posts_thumb .item .info {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .info {
   overflow: hidden;
 }
-.widget-area .widget_huruma_posts_thumb .item .info span {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .info span {
   display: block;
   color: #666666;
   text-transform: uppercase;
@@ -5095,16 +5095,16 @@ Sidebar Widget Area Style
   margin-bottom: 5px;
   font-size: 12px;
 }
-.widget-area .widget_huruma_posts_thumb .item .info .title {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .info .title {
   margin-top: 5px;
   line-height: 1.5;
   font-size: 18px;
 }
-.widget-area .widget_huruma_posts_thumb .item .info .title a {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .info .title a {
   display: inline-block;
   color: #474c40;
 }
-.widget-area .widget_huruma_posts_thumb .item .info .title a:hover {
+.widget-area .widget_Sehal Welfare_posts_thumb .item .info .title a:hover {
   color: #2f2c52;
 }
 .widget-area .widget_recent_entries ul {
