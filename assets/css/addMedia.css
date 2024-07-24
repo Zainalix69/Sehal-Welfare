@@ -1,0 +1,31 @@
+.navbar-brand img {
+    height: 100px;
+    width: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; 
+}
+@media (max-width: 767px) {
+    .navbar-brand img {
+        height: 50px;
+        width: auto;
+    }
+
+    .navbar-nav .nav-link {
+        color: #000000; 
+    }
+
+    .navbar-toggler {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.75rem;
+        margin-left: auto; 
+    }
+
+    .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin: 0 auto; }
+}

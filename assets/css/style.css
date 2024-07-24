@@ -951,6 +951,7 @@ Navbar Area CSS
   margin-left: 14px;
   margin-right: 14px;
 }
+
 .navbar-style-three .navbar .navbar-nav .nav-item a:hover, .navbar-style-three .navbar .navbar-nav .nav-item a:focus, .navbar-style-three .navbar .navbar-nav .nav-item a.active {
   color: #ff6015;
   position: relative;

@@ -39,7 +39,11 @@
         <link rel="stylesheet" href="assets/css/dark.css">
         <!-- Responsive CSS -->
 		<link rel="stylesheet" href="assets/css/responsive.css">
-		
+        <link rel="stylesheet" href="assets/css/addMedia.css">
+        <link
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          rel="stylesheet"
+        />
 		<title>Sehal Welfare Foundation</title>
 
         <link rel="icon" type="image/png" href="assets/img/favicon.png">
@@ -58,7 +62,7 @@
 
         <!-- Start Navbar Area -->
         <div class="navbar-area  navbar-style-three">
-            <div class="Sehal Welfare-responsive-nav">
+            <!-- <div class="Sehal Welfare-responsive-nav">
                 <div class="container">
                      <div class="Sehal Welfare-responsive-menu">
                         <div class="logo">
@@ -69,214 +73,87 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
-            <div class="Sehal Welfare-nav">
+            <div class="huruma-nav">
                 <div class="container">
                     <nav class="navbar navbar-expand-md navbar-light">
-                                 <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo"  style="height:100px">
-                            <img src="assets/img/welfare-logo.png" class="black-logo" alt="image"  style="height:100px">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo"/>
+                            <img src="assets/img/welfare-logo.png" class="black-logo" alt="image"/>
                         </a>
-
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                          <li class="nav-item">
-                                    <a href="index.html" class="nav-link">
-                                        Home
-                                    </a>
-                                </li>
-
+                        <!-- Navbar Toggler Button -->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a href="about.html" class="nav-link">
-                                        About
-                                    </a>
+                                    <a href="index.html" class="nav-link">Home</a>
                                 </li>
-
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Causes 
-                                        <i class='bx bx-chevron-down'></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="causes.html" class="nav-link">
-                                                Causes
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="single-causes.html" class="nav-link">
-                                                Single Causes
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <a href="about.html" class="nav-link">About</a>
                                 </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link active">
-                                        Pages 
-                                        <i class='bx bx-chevron-down'></i>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Causes
                                     </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="about.html" class="nav-link">
-                                                About
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="team.html" class="nav-link active">
-                                                Team
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="gallery.html" class="nav-link">
-                                                Gallery
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Events 
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="events.html" class="nav-link">
-                                                        Events
-                                                    </a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                    <a href="single-events.html" class="nav-link">
-                                                        Events Details
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="faq.html" class="nav-link">
-                                                Faq
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="feedback.html" class="nav-link">
-                                                Feedback
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                User 
-                                            </a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="log-in.html" class="nav-link">
-                                                        Log In
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="sign-up.html" class="nav-link">
-                                                        Sign Up
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="recover-password.html" class="nav-link">
-                                                        Recover Password
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    
-                                        <li class="nav-item">
-                                            <a href="error-404.html" class="nav-link">
-                                                404 Error
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="contact.html" class="nav-link">
-                                                Contact
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="causes.html" class="dropdown-item">Causes</a>
+                                        <a href="single-causes.html" class="dropdown-item">Single Causes</a>
+                                    </div>
                                 </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Blog 
-                                        <i class='bx bx-chevron-down'></i>
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
                                     </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="blog-1.html" class="nav-link">
-                                                Blog Grid
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="blog-2.html" class="nav-link">
-                                                Blog Right Sidebar
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="single-blog.html" class="nav-link">
-                                                Blog Details
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+                                        <a href="about.html" class="dropdown-item">About</a>
+                                        <a href="team.html" class="dropdown-item">Team</a>
+                                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                                        <a href="#" class="dropdown-item dropdown-toggle" id="eventsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Events
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="eventsDropdown">
+                                            <a href="events.html" class="dropdown-item">Events</a>
+                                            <a href="single-events.html" class="dropdown-item">Events Details</a>
+                                        </div>
+                                        <a href="faq.html" class="dropdown-item">Faq</a>
+                                        <a href="feedback.html" class="dropdown-item">Feedback</a>
+                                        <a href="#" class="dropdown-item dropdown-toggle" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            User
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="userDropdown">
+                                            <a href="log-in.html" class="dropdown-item">Log In</a>
+                                            <a href="sign-up.html" class="dropdown-item">Sign Up</a>
+                                            <a href="recover-password.html" class="dropdown-item">Recover Password</a>
+                                        </div>
+                                        <a href="error-404.html" class="dropdown-item">404 Error</a>
+                                        <a href="contact.html" class="dropdown-item">Contact</a>
+                                    </div>
                                 </li>
-
-                                <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">
-                                        Contact
+                                <li class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" id="blogDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blog
                                     </a>
+                                    <div class="dropdown-menu" aria-labelledby="blogDropdown">
+                                        <a href="blog-1.html" class="dropdown-item">Blog Grid</a>
+                                        <a href="blog-2.html" class="dropdown-item">Blog Right Sidebar</a>
+                                        <a href="single-blog.html" class="dropdown-item">Blog Details</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html" class="nav-link">Contact</a>
                                 </li>
                             </ul>
-
                             <div class="others-options">
-                                <div class="dropdown language-switcher d-inline-block">
-                                    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <img src="assets/img/flag/france-flag.jpg" class="shadow" alt="image">
-                                        <span>Eng <i class='bx bx-chevron-down'></i></span>
-                                    </button>
-
-                                    <div class="dropdown-menu">
-                                        <a href="#" class="dropdown-item d-flex align-items-center">
-                                            <img src="assets/img/flag/germany-flag.jpg" class="shadow-sm" alt="flag">
-                                            <span>Ger</span>
-                                        </a>
-                                        <a href="#" class="dropdown-item d-flex align-items-center">
-                                            <img src="assets/img/flag/italy-flag.jpg" class="shadow-sm" alt="flag">
-                                            <span>Fre</span>
-                                        </a>
-                                        <a href="#" class="dropdown-item d-flex align-items-center">
-                                            <img src="assets/img/flag/spain-flag.jpg" class="shadow-sm" alt="flag">
-                                            <span>Spa</span>
-                                        </a>
-                                        <a href="#" class="dropdown-item d-flex align-items-center">
-                                            <img src="assets/img/flag/russia-flag.jpg" class="shadow-sm" alt="flag">
-                                            <span>Rus</span>
-                                        </a>
-                                        <a href="#" class="dropdown-item d-flex align-items-center">
-                                            <img src="assets/img/flag/us-flag.jpg" class="shadow-sm" alt="flag">
-                                            <span>Ita</span>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="option-item"><i class="search-btn bx bx-search"></i>
+                                <div class="option-item">
+                                    <i class="search-btn bx bx-search"></i>
                                     <i class="close-btn bx bx-x"></i>
                                     <div class="search-overlay search-popup">
-                                        <div class='search-box'>
+                                        <div class="search-box">
                                             <form class="search-form">
-                                                <input class="search-input" name="search" placeholder="Search" type="text">
-
+                                                <input class="search-input" name="search" placeholder="Search" type="text"/>
                                                 <button class="search-button" type="submit">
                                                     <i class="bx bx-search"></i>
                                                 </button>
@@ -284,7 +161,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="burger-menu">
                                     <i class="flaticon-menu"></i>
                                 </div>
@@ -729,7 +605,7 @@
         <footer class="footer-section pt-100">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h3>Contact info</h3>
 
@@ -756,96 +632,105 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h3>Our Support</h3>
 
                             <ul class="footer-quick-links">
                                 <li>
                                     <a href="#">
-                                        Private Policies
+                                        Free Mobile Resturant
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Donate Now
+                                        Free School
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Become a Volunteer
+                                       Free IT City
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Careers
+                                        Free Education
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Contact Us
+                                        Free Diagnostic Lab
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Paid programs
+                                        Free Dialysis Center
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Partnership
+                                        Free Dastarkhwan
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
-                            <h3>Our Services</h3>
+                            <h3>Our Campaigns</h3>
 
                             <ul class="footer-quick-links">
                                 <li>
                                     <a href="#">
-                                        Donate
+                                        Qurbani
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Sponsor
+                                        Zakat
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Fundraise
+                                        Fitra
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Volunteer
+                                        Old Age Homes
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Partner
+                                        Orphanage House
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Jobs
+                                        Ambulance
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        Form 
+                                        Services 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Flood Releif Fund 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Donate to Palestine 
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
+                    <!-- <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="single-footer-widget">
                             <h3>Recent News</h3>
 
@@ -865,7 +750,7 @@
                                </a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -941,6 +826,9 @@
         
         <!-- Slider Revolution core JavaScript files -->
         <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
         <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
         <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
