@@ -102,21 +102,21 @@
   .single-fun-fact h3 .sign-icon {
     font-size: 40px;
   }
-  .single-causes .icon {
+  .single-Projects .icon {
     bottom: 50%;
     transform: translateY(-50%);
   }
-  .single-causes .causes-content h3 {
+  .single-Projects .Projects-content h3 {
     font-size: 18px;
   }
-  .single-causes:hover::before {
+  .single-Projects:hover::before {
     height: 80%;
   }
-  .single-causes:hover .icon {
+  .single-Projects:hover .icon {
     bottom: 60%;
     transform: translateY(-60%);
   }
-  .single-causes img {
+  .single-Projects img {
     width: 100%;
   }
   .donor-item {
@@ -420,13 +420,13 @@
   .page-title-content h2 {
     font-size: 30px;
   }
-  .causes-details-desc .causes-details-text {
+  .Projects-details-desc .Projects-details-text {
     padding: 20px;
   }
-  .causes-details-desc .causes-details-meta {
+  .Projects-details-desc .Projects-details-meta {
     padding: 20px;
   }
-  .causes-details-desc .causes-details-payment {
+  .Projects-details-desc .Projects-details-payment {
     padding: 20px;
   }
   .widget-area .widget:first-child {
@@ -669,7 +669,7 @@
   .map-img .location.location5 {
     right: 45%;
   }
-  .single-causes .causes-content {
+  .single-Projects .Projects-content {
     width: 100%;
   }
   .mission-image {
@@ -688,19 +688,19 @@
   .Sehal Welfare-responsive-nav .logo {
     width: 30%;
   }
-  .single-causes img {
+  .single-Projects img {
     width: 100%;
   }
-  .single-causes .causes-content {
+  .single-Projects .Projects-content {
     width: 100%;
   }
-  .single-causes .icon {
+  .single-Projects .icon {
     bottom: 20%;
   }
-  .single-causes:hover::before {
+  .single-Projects:hover::before {
     height: 38%;
   }
-  .single-causes:hover .icon {
+  .single-Projects:hover .icon {
     bottom: 30%;
     transform: translateY(-30%);
   }
@@ -847,17 +847,17 @@
   .single-fun-fact h3 .sign-icon {
     font-size: 40px;
   }
-  .single-causes .icon {
+  .single-Projects .icon {
     bottom: 38%;
     transform: translateY(-38%);
   }
-  .single-causes .causes-content h3 {
+  .single-Projects .Projects-content h3 {
     font-size: 18px;
   }
-  .single-causes:hover::before {
+  .single-Projects:hover::before {
     height: 62%;
   }
-  .single-causes:hover .icon {
+  .single-Projects:hover .icon {
     bottom: 48%;
     transform: translateY(-48%);
   }
@@ -1326,7 +1326,7 @@
   .map-img .location a .location-info::before {
     left: 45px;
   }
-  .single-causes .causes-content {
+  .single-Projects .Projects-content {
     width: 100%;
   }
   .mission-image {
@@ -1373,17 +1373,17 @@
   .feature-card {
     padding: 30px;
   }
-  .single-causes .icon {
+  .single-Projects .icon {
     bottom: 50%;
     transform: translateY(-50%);
   }
-  .single-causes .causes-content h3 {
+  .single-Projects .Projects-content h3 {
     font-size: 18px;
   }
-  .single-causes:hover::before {
+  .single-Projects:hover::before {
     height: 75%;
   }
-  .single-causes:hover .icon {
+  .single-Projects:hover .icon {
     bottom: 60%;
     transform: translateY(-60%);
   }

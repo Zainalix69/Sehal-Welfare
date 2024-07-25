@@ -18,7 +18,7 @@ This files table contents are outlined below>>>>>
 ** - Top Feature Area CSS
 ** - About Area Area CSS
 ** - Fun Facts Area CSS
-** - Causes Area CSS
+** - Projects Area CSS
 ** - Donor Area CSS
 ** - Solve Area CSS
 ** - Mission Area CSS
@@ -36,7 +36,7 @@ This files table contents are outlined below>>>>>
 ** - Instagram Area CSS
 ** - Page Title Area CSS
 ** - Pagination Area CSS
-** - Causes Details Area CSS
+** - Projects Details Area CSS
 ** - Sidebar Widget Area CSS
 ** - Gallery Area CSS
 ** - Event Details Area CSS
@@ -286,7 +286,7 @@ Preloader Area CSS
   margin-left: -25px;
   margin-top: -25px;
 }
-.preloader .preloader span {
+/* .preloader .preloader span {
   position: absolute;
   display: inline-block;
   width: 50px;
@@ -294,7 +294,7 @@ Preloader Area CSS
   border-radius: 100%;
   background-color: #ff6015 !important;
   animation: preloader 1.3s linear infinite;
-}
+} */
 .preloader .preloader span:last-child {
   animation-delay: -0.8s;
   -webkit-animation-delay: -0.8s;
@@ -2031,19 +2031,19 @@ Fun Facts Area CSS
 }
 
 /*================================================
-Causes Area CSS
+Projects Area CSS
 =================================================*/
-.single-causes {
+.single-Projects {
   margin-bottom: 30px;
   position: relative;
   transition: 0.5s;
 }
-.single-causes img {
+.single-Projects img {
   border-radius: 5px;
   border: 1px dashed #b5b8cc;
   width: 100%;
 }
-.single-causes .causes-content {
+.single-Projects .Projects-content {
   position: absolute;
   bottom: 0;
   background-color: #2f2c52;
@@ -2051,7 +2051,7 @@ Causes Area CSS
   border-radius: 30px 30px 5px 5px;
   transition: 0.5s;
 }
-.single-causes .causes-content span {
+.single-Projects .Projects-content span {
   font-size: 15px;
   color: #ffffff;
   font-weight: 300;
@@ -2061,7 +2061,7 @@ Causes Area CSS
   position: relative;
   z-index: 1;
 }
-.single-causes .causes-content h3 {
+.single-Projects .Projects-content h3 {
   font-size: 22px;
   margin: 0 0 0 0;
   color: #ffffff;
@@ -2071,7 +2071,7 @@ Causes Area CSS
   position: relative;
   z-index: 1;
 }
-.single-causes .causes-content p {
+.single-Projects .Projects-content p {
   font-size: 14px;
   color: #ffffff;
   font-weight: 400;
@@ -2080,18 +2080,18 @@ Causes Area CSS
   position: relative;
   z-index: 1;
 }
-.single-causes .causes-content .causes-progress-bar {
+.single-Projects .Projects-content .Projects-progress-bar {
   transition: 0.5s;
   position: relative;
   z-index: 1;
 }
-.single-causes .causes-content .causes-progress-bar .causes-progress-content {
+.single-Projects .Projects-content .Projects-progress-bar .Projects-progress-content {
   margin-top: 18px;
   position: relative;
   margin-bottom: 30px;
   position: relative;
 }
-.single-causes .causes-content .causes-progress-bar .causes-progress-content::before {
+.single-Projects .Projects-content .Projects-progress-bar .Projects-progress-content::before {
   position: absolute;
   content: "";
   height: 5px;
@@ -2101,23 +2101,23 @@ Causes Area CSS
   border-radius: 5px;
   transition: 0.5s;
 }
-.single-causes .causes-content .causes-progress-bar .causes-progress-content span {
+.single-Projects .Projects-content .Projects-progress-bar .Projects-progress-content span {
   font-size: 14px;
   color: #ffffff;
   font-family: "Rubik", sans-serif;
 }
-.single-causes .causes-content .causes-progress-bar .causes-progress-content .text-right {
+.single-Projects .Projects-content .Projects-progress-bar .Projects-progress-content .text-right {
   text-align: right !important;
   position: absolute;
   right: 0;
   bottom: 0;
 }
-.single-causes .causes-content .causes-progress-bar p {
+.single-Projects .Projects-content .Projects-progress-bar p {
   transition: 0.5s;
   position: relative;
   z-index: 1;
 }
-.single-causes .causes-content .causes-progress-bar p::before {
+.single-Projects .Projects-content .Projects-progress-bar p::before {
   position: absolute;
   content: "";
   height: 5px;
@@ -2127,7 +2127,7 @@ Causes Area CSS
   border-radius: 5px;
   transition: 0.5s;
 }
-.single-causes .causes-content .causes-progress-bar p::after {
+.single-Projects .Projects-content .Projects-progress-bar p::after {
   position: absolute;
   content: "";
   height: 4px;
@@ -2140,7 +2140,7 @@ Causes Area CSS
   transform: rotate(90deg);
   transition: 0.5s;
 }
-.single-causes .causes-content .causes-btn-one {
+.single-Projects .Projects-content .Projects-btn-one {
   display: inline-block;
   background-color: #ffffff;
   color: #ff6015;
@@ -2154,14 +2154,14 @@ Causes Area CSS
   visibility: hidden;
   transition: 0.5s;
 }
-.single-causes .causes-content .causes-btn-one i {
+.single-Projects .Projects-content .Projects-btn-one i {
   font-size: 14px;
   line-height: normal;
   margin-left: 4px;
   position: relative;
   top: 1px;
 }
-.single-causes .icon {
+.single-Projects .icon {
   position: absolute;
   bottom: 34%;
   transform: translateY(-34%);
@@ -2176,11 +2176,11 @@ Causes Area CSS
   border-radius: 50px;
   transition: 0.5s;
 }
-.single-causes .icon i {
+.single-Projects .icon i {
   color: #ff6015;
   font-size: 30px;
 }
-.single-causes::before {
+.single-Projects::before {
   content: "";
   position: absolute;
   left: 0;
@@ -2193,45 +2193,45 @@ Causes Area CSS
   border-radius: 30px 30px 5px 5px;
   overflow: hidden;
 }
-.single-causes:hover::before {
+.single-Projects:hover::before {
   height: 50%;
   border-radius: 30px 30px 5px 5px;
 }
-.single-causes:hover .causes-content span {
+.single-Projects:hover .Projects-content span {
   transform: translateY(-55px);
 }
-.single-causes:hover .causes-content h3 {
+.single-Projects:hover .Projects-content h3 {
   transform: translateY(-55px);
 }
-.single-causes:hover .causes-content p {
+.single-Projects:hover .Projects-content p {
   transform: translateY(-55px);
 }
-.single-causes:hover .causes-progress-bar {
+.single-Projects:hover .Projects-progress-bar {
   transform: translateY(-60px);
 }
-.single-causes:hover .causes-progress-bar .causes-progress-content span {
+.single-Projects:hover .Projects-progress-bar .Projects-progress-content span {
   transform: translateY(0);
 }
-.single-causes:hover .causes-progress-bar .causes-progress-content::before {
+.single-Projects:hover .Projects-progress-bar .Projects-progress-content::before {
   background-color: #fca57c;
 }
-.single-causes:hover .causes-progress-bar p {
+.single-Projects:hover .Projects-progress-bar p {
   transform: translateY(0);
 }
-.single-causes:hover .causes-progress-bar p::before {
+.single-Projects:hover .Projects-progress-bar p::before {
   background-color: #ffffff;
 }
-.single-causes:hover .causes-progress-bar p::after {
+.single-Projects:hover .Projects-progress-bar p::after {
   background-color: #ffffff;
 }
-.single-causes:hover .causes-btn-one {
+.single-Projects:hover .Projects-btn-one {
   opacity: 1;
   visibility: visible;
   color: #ff6015;
   bottom: 15px;
   z-index: 1;
 }
-.single-causes:hover .icon {
+.single-Projects:hover .icon {
   bottom: 40%;
   transform: translateY(-40%);
 }
@@ -4832,15 +4832,15 @@ Pagination Area CSS
 }
 
 /*================================================
-Causes Details Area Style
+Projects Details Area Style
 =================================================*/
-.causes-details-desc .causes-details-text {
+.Projects-details-desc .Projects-details-text {
   padding: 25px;
   background-color: #ffffff;
   box-shadow: 0 0 11px 3px rgba(0, 0, 0, 0.05);
   border-radius: 0 0 4px 4px;
 }
-.causes-details-desc .causes-details-text .progress {
+.Projects-details-desc .Projects-details-text .progress {
   height: 5px;
   background: #cccccc;
   border-radius: 0;
@@ -4849,14 +4849,14 @@ Causes Details Area Style
   margin-top: 32px;
   overflow: visible;
 }
-.causes-details-desc .causes-details-text .progress .progress-bar {
+.Projects-details-desc .Projects-details-text .progress .progress-bar {
   box-shadow: none;
   position: relative;
   animation: animate-positive 2s;
   background-color: #ff6015;
   width: 50%;
 }
-.causes-details-desc .causes-details-text .progress .progress-bar:after {
+.Projects-details-desc .Projects-details-text .progress .progress-bar:after {
   content: "";
   display: block;
   border: 10px solid transparent;
@@ -4866,7 +4866,7 @@ Causes Details Area Style
   right: -12px;
   border-radius: 5px;
 }
-.causes-details-desc .causes-details-text .progress .progress-value {
+.Projects-details-desc .Projects-details-text .progress .progress-value {
   font-size: 15px;
   font-weight: bold;
   color: #8a8486;
@@ -4874,7 +4874,7 @@ Causes Details Area Style
   top: -32px;
   right: -88px;
 }
-.causes-details-desc .causes-details-text .progress.pink .progress-bar:after {
+.Projects-details-desc .Projects-details-text .progress.pink .progress-bar:after {
   border-bottom-color: #ff6015;
 }
 @keyframes animate-positive {
@@ -4882,77 +4882,77 @@ Causes Details Area Style
     width: 0;
   }
 }
-.causes-details-desc .causes-details-text ul {
+.Projects-details-desc .Projects-details-text ul {
   border-bottom: 1px solid #dddee0;
   padding-bottom: 10px;
   padding-left: 0;
 }
-.causes-details-desc .causes-details-text ul li {
+.Projects-details-desc .Projects-details-text ul li {
   display: inline-block;
   color: #a7a7aa;
   font-size: 14px;
   font-weight: 500;
 }
-.causes-details-desc .causes-details-text ul li.left-site {
+.Projects-details-desc .Projects-details-text ul li.left-site {
   float: right;
 }
-.causes-details-desc .causes-details-text ul li span {
+.Projects-details-desc .Projects-details-text ul li span {
   color: #78797c;
 }
-.causes-details-desc .causes-details-text h3 {
+.Projects-details-desc .Projects-details-text h3 {
   margin-bottom: 16px;
   margin-top: 8px;
   font-size: 25px;
 }
-.causes-details-desc .causes-details-meta {
+.Projects-details-desc .Projects-details-meta {
   background-color: #ffffff;
   box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
   padding: 30px;
   margin-top: 30px;
 }
-.causes-details-desc .causes-details-meta h3 {
+.Projects-details-desc .Projects-details-meta h3 {
   margin-bottom: 14px;
   margin-top: 20px;
   font-size: 25px;
 }
-.causes-details-desc .causes-details-meta .entry-meta ul {
+.Projects-details-desc .Projects-details-meta .entry-meta ul {
   padding-left: 0;
   margin-bottom: 0;
   list-style-type: none;
 }
-.causes-details-desc .causes-details-meta .entry-meta ul li a {
+.Projects-details-desc .Projects-details-meta .entry-meta ul li a {
   display: inline-block;
   color: #666666;
 }
-.causes-details-desc .causes-details-meta .entry-meta span {
+.Projects-details-desc .Projects-details-meta .entry-meta span {
   color: #ff6015;
 }
-.causes-details-desc .causes-details-payment {
+.Projects-details-desc .Projects-details-payment {
   background-color: #ffffff;
   box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
   padding: 30px;
   margin-top: 30px;
 }
-.causes-details-desc .causes-details-payment .payment-method p {
+.Projects-details-desc .Projects-details-payment .payment-method p {
   display: inline-block;
   padding-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.causes-details-desc .causes-details-payment .payment-method p:last-child {
+.Projects-details-desc .Projects-details-payment .payment-method p:last-child {
   padding-right: 0;
 }
-.causes-details-desc .causes-details-payment .payment-method p label {
+.Projects-details-desc .Projects-details-payment .payment-method p label {
   margin-bottom: 0;
 }
-.causes-details-desc .causes-details-payment .payment-method h3 {
+.Projects-details-desc .Projects-details-payment .payment-method h3 {
   font-size: 25px;
   margin: 0 0 0 0;
 }
-.causes-details-desc .causes-details-payment .contact-form .form-group {
+.Projects-details-desc .Projects-details-payment .contact-form .form-group {
   margin-bottom: 15px;
 }
-.causes-details-desc .causes-details-payment .contact-form .form-control {
+.Projects-details-desc .Projects-details-payment .contact-form .form-control {
   height: 50px;
   color: #6e6e6e;
   border: 1px solid #ebebeb;
@@ -4963,15 +4963,15 @@ Causes Details Area Style
   padding: 10px 20px;
   width: 100%;
 }
-.causes-details-desc .causes-details-payment .contact-form .form-control:focus {
+.Projects-details-desc .Projects-details-payment .contact-form .form-control:focus {
   outline: 0;
   box-shadow: none;
   border: 1px solid #ff6015;
 }
-.causes-details-desc .causes-details-payment .causes-details-btn {
+.Projects-details-desc .Projects-details-payment .Projects-details-btn {
   margin-top: 10px;
 }
-.causes-details-desc .causes-details-payment .causes-details-btn .default-btn {
+.Projects-details-desc .Projects-details-payment .Projects-details-btn .default-btn {
   display: block;
   width: 100%;
 }
@@ -5071,19 +5071,19 @@ Sidebar Widget Area Style
   background-position: center center !important;
 }
 .widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../img/causes-details/1.jpg);
+  background-image: url(../img/Projects-details/1.jpg);
 }
 .widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../img/causes-details/2.jpg);
+  background-image: url(../img/Projects-details/2.jpg);
 }
 .widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../img/causes-details/3.jpg);
+  background-image: url(../img/Projects-details/3.jpg);
 }
 .widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg4 {
-  background-image: url(../img/causes-details/4.jpg);
+  background-image: url(../img/Projects-details/4.jpg);
 }
 .widget-area .widget_Sehal Welfare_posts_thumb .item .thumb .fullimage.bg5 {
-  background-image: url(../img/causes-details/5.jpg);
+  background-image: url(../img/Projects-details/5.jpg);
 }
 .widget-area .widget_Sehal Welfare_posts_thumb .item .info {
   overflow: hidden;

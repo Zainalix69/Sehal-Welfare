@@ -541,39 +541,39 @@ Default CSS
   background: #ff6015;
   color: #ffffff;
 }
-.theme-dark .causes-details-desc .causes-details-text {
+.theme-dark .Projects-details-desc .Projects-details-text {
   background-color: #0e0e0e;
 }
-.theme-dark .causes-details-desc .causes-details-text .progress .progress-value {
+.theme-dark .Projects-details-desc .Projects-details-text .progress .progress-value {
   color: #ffffff;
 }
-.theme-dark .causes-details-desc .causes-details-text .progress.pink .progress-bar:after {
+.theme-dark .Projects-details-desc .Projects-details-text .progress.pink .progress-bar:after {
   border-bottom-color: #ff6015;
 }
-.theme-dark .causes-details-desc .causes-details-text ul li {
+.theme-dark .Projects-details-desc .Projects-details-text ul li {
   color: #ffffff;
 }
-.theme-dark .causes-details-desc .causes-details-text ul li span {
+.theme-dark .Projects-details-desc .Projects-details-text ul li span {
   color: #ffffff;
 }
-.theme-dark .causes-details-desc .causes-details-meta {
+.theme-dark .Projects-details-desc .Projects-details-meta {
   background-color: #0e0e0e;
 }
-.theme-dark .causes-details-desc .causes-details-meta .entry-meta ul li a {
+.theme-dark .Projects-details-desc .Projects-details-meta .entry-meta ul li a {
   color: #ffffff;
 }
-.theme-dark .causes-details-desc .causes-details-payment {
+.theme-dark .Projects-details-desc .Projects-details-payment {
   background-color: #0e0e0e;
 }
-.theme-dark .causes-details-desc .causes-details-payment .contact-form .form-control {
+.theme-dark .Projects-details-desc .Projects-details-payment .contact-form .form-control {
   color: #ffffff;
   border: 1px solid #000000;
   background-color: transparent;
 }
-.theme-dark .causes-details-desc .causes-details-payment .contact-form .form-control::-moz-placeholder {
+.theme-dark .Projects-details-desc .Projects-details-payment .contact-form .form-control::-moz-placeholder {
   color: #ffffff;
 }
-.theme-dark .causes-details-desc .causes-details-payment .contact-form .form-control::placeholder {
+.theme-dark .Projects-details-desc .Projects-details-payment .contact-form .form-control::placeholder {
   color: #ffffff;
 }
 .theme-dark .widget-area .widget {
