@@ -1,0 +1,44 @@
+.btn-custom button {
+  background-color: #f07d1f;
+  width: 120px;
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+}
+.btn-custom button:hover {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 20px;
+}
+.single-projects-index {
+  margin-top: 250px;
+}
+.project-content-index-1{
+  margin-top: 250px;
+}
+
+
+.president-section {
+  background: #f7f7f7;
+  padding: 50px 0;
+}
+.president-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.president-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+.president-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0056b3;
+}
+.president-image img {
+  border-radius: 50%;
+}
