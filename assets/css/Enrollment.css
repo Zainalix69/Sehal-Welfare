@@ -1,135 +1,167 @@
 body {
-    background-color: #f8f9fa;
-    font-family: "Arial", sans-serif;
-  }
-  .container {
-    margin-top: 50px;
-  }
-  .toggle-buttons {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-  }
-  .toggle-buttons button {
-    margin: 0 10px;
-    border-radius: 30px;
-    padding: 10px 20px;
-    font-size: 16px;
-    transition: all 0.3s;
-    border: none;
-  }
-  .btn-primary {
-    background-color: #f07d1f;
-    color: #fff;
-  }
-  .btn-primary:hover {
-    background-color: #e05c0d;
-    color: #fff;
-  }
-  .form-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-  }
-  .form-section {
-    flex: 1;
-    padding: 20px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: none;
-  }
-  .form-section.active {
-    display: block;
-  }
-  .form-group {
-    margin-bottom: 20px;
-  }
-  .form-group label {
-    font-weight: bold;
-  }
-  .form-control {
-    border-radius: 5px;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-  }
-  .btn-submit {
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    border: none;
-    color: white;
-    transition: all 0.3s;
-  }
-  .btn-submit:hover {
-    background-color: #0056b3;
-  }
-  .form-header {
-    margin-bottom: 20px;
-  }
-  .form-header h2 {
-    font-size: 24px;
-    color: #343a40;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-  }
-  .table-container {
-    margin-top: 30px;
-  }
-  .table-container table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .table-container th,
-  .table-container td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  .table-container th {
-    background-color: #007bff;
-    color: white;
-  }
-  .custom-course-group {
-    display: none;
-    margin-top: 20px;
-  }
-  .custom-course-group input {
-    border-radius: 5px;
-    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-  }
-  .form-section {
-    display: none;
-  }
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+}
+.container {
+  margin-top: 50px;
+}
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.toggle-buttons button {
+  margin: 0 10px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: all 0.3s;
+  border: none;
+}
+.btn-primary {
+  background-color: #f07d1f;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #e05c0d;
+  color: #fff;
+}
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.form-section {
+  flex: 1;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+.form-section.active {
+  display: block;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  font-weight: bold;
+}
+.form-control {
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.btn-submit {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  transition: all 0.3s;
+}
+.btn-submit:hover {
+  background-color: #0056b3;
+}
+.form-header {
+  margin-bottom: 20px;
+}
+.form-header h2 {
+  font-size: 24px;
+  color: #343a40;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+.table-container {
+  margin-top: 30px;
+}
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-container th,
+.table-container td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.table-container th {
+  background-color: #007bff;
+  color: white;
+}
+.custom-course-group {
+  display: none;
+  margin-top: 20px;
+}
+.custom-course-group input {
+  border-radius: 5px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.form-section {
+  display: none;
+}
 
-  .form-section.active {
-    display: block;
-  }
+.form-section.active {
+  display: block;
+}
 
-  .toggle-buttons {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.toggle-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-  .btn-custom {
-    background-color: #17a2b8;
-    color: white;
-  }
+.btn-custom {
+  background-color: #17a2b8;
+  color: white;
+}
 
-  .btn-custom:hover {
-    background-color: #138496;
-  }
+.btn-custom:hover {
+  background-color: #138496;
+}
 
-  .form-header h2 {
-    margin-bottom: 20px;
-  }
+.form-header h2 {
+  margin-bottom: 20px;
+}
 
-  .form-control {
-    border-radius: 0.25rem;
-  }
+.form-control {
+  border-radius: 0.25rem;
+}
 
-  .btn-center {
-    display: flex;
-    justify-content: center;
-  }
+.btn-center {
+  display: flex;
+  justify-content: center;
+}
+.toggle-buttons .btn {
+  border: 1px solid transparent;
+}
+.toggle-buttons .btn.active {
+  background-color: #fc7a00;
+  color: white;
+  border-color: #007bff;
+}
+.enroll {
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+.toggle-buttons .btn.inactive {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.nav-links > ul > li > a {
+  color: white !important;
+}
+
+.form-section {
+  display: none;
+}
+.form-section.active {
+  display: block;
+}
+.btn-submit-enroll {
+  margin-top: 50px;
+}
+/* .area-enrollment {
+  margin-top: 200px;
+} */
