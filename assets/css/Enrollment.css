@@ -142,15 +142,15 @@ body {
   border-color: #007bff;
 }
 .enroll {
-  margin-top: 200px;
-  margin-bottom: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 .toggle-buttons .btn.inactive {
   background-color: #007bff;
   color: #ffffff;
 }
 .nav-links > ul > li > a {
-  color: white !important;
+  color: white;
 }
 
 .form-section {
@@ -160,8 +160,16 @@ body {
   display: block;
 }
 .btn-submit-enroll {
-  margin-top: 50px;
+  margin: 50px 0px;
 }
 /* .area-enrollment {
   margin-top: 200px;
 } */
+@media screen and (max-width: 768px) {
+  .area-enrollment {
+    margin-top: 0px;
+  }
+  .enroll {
+    margin: 0px;
+  }
+}

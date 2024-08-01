@@ -1,0 +1,32 @@
+.donation-form {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.progress-bar-custom {
+  background-color: #ff6015;
+}
+.btn-next-donation {
+  display: flex;
+  margin: 5px auto;
+}
+.donation-Button {
+  margin-top: 5px;
+}
+
+.btn-margin {
+  margin: 10px 0;
+}
+.form-step {
+  margin-bottom: 20px;
+}
+
+.form-step {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.donation-form {
+  max-width: 600px;
+  margin: auto;
+}

@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: #333;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.section-title h2 {
+  font-size: 2.5rem;
+  color: #007bff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-title span {
+  display: block;
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+.mission-statement,
+.objectives {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.mission-statement img,
+.objectives img {
+  border-radius: 8px;
+}
+.mission-statement p,
+.objectives p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.objective-list {
+  list-style-type: none;
+  padding: 0;
+}
+.objective-list li {
+  position: relative;
+  padding-left: 30px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+.objective-list li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.mission-statement,
+.objectives {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.mission-statement h3,
+.objectives h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #007bff;
+}
+.mission-statement p,
+.objectives p {
+  margin-top: 20px;
+}
+.mission-statement img,
+.objectives img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .mission-statement img,
+  .objectives img {
+    width: 100%;
+  }
+}
