@@ -1365,7 +1365,7 @@
   }
   .navbar-area.is-sticky .navbar .navbar-brand .black-logo {
     display: block;
-    width: 150px;
+    /* width: 150px; */
   }
   .navbar-style-two .Sehal Welfare Foundation-nav .navbar .navbar-brand {
     width: 135px;
