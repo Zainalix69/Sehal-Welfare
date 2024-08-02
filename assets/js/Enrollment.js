@@ -50,3 +50,18 @@ function addCustomCourse() {
     document.getElementById("customCourseGroup").style.display = "none"; // Hide the custom course input
   }
 }
+document.getElementById('paymentMethod').addEventListener('change', function() {
+  var easypaisaDetails = document.getElementById('easypaisaDetails');
+  var bankAccountDetails = document.getElementById('bankAccountDetails');
+  
+  if (this.value === 'easypaisa') {
+      easypaisaDetails.style.display = 'block';
+      bankAccountDetails.style.display = 'none';
+  } else if (this.value === 'bank_account') {
+      easypaisaDetails.style.display = 'none';
+      bankAccountDetails.style.display = 'block';
+  } else {
+      easypaisaDetails.style.display = 'none';
+      bankAccountDetails.style.display = 'none';
+  }
+});

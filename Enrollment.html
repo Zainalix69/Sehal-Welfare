@@ -124,7 +124,6 @@
               <h2>Enrollment</h2>
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>Projects</li>
                 <li>Enrollment</li>
               </ul>
             </div>
@@ -200,11 +199,11 @@
               <label for="studentCourse">Course</label>
               <select class="form-control" id="studentCourse" name="Course" required>
                 <option value="">Select a course</option>
-                <option value="it">IT Course</option>
-                <option value="graphic_designing">Graphic Designing</option>
-                <option value="ui_ux">UI/UX</option>
-                <option value="app_development">App Development</option>
-                <option value="computer_course">Computer Course</option>
+                <option value="it_basics">IT Basics</option>
+                <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
+                <option value="ui_ux_foundations">Foundations of UI/UX</option>
+                <option value="basic_computer_course">Basic Computer Course</option>
+                <option value="app_development_intro">Introduction to App Development</option>
               </select>
             </div>
             <div class="btn-center btn-submit-enroll">
@@ -216,91 +215,75 @@
         <!-- Teacher Enrollment -->
         <div id="teacherForm" class="form-section">
           <div class="form-header">
-            <h2>Be a Teacher</h2>
+              <h2>Be a Teacher</h2>
           </div>
           <form
-            action="https://script.google.com/macros/s/AKfycbxjisdunQmXRzHHXDx5u5Mg4AimyAzPUE360QQPdJ9utsihRr6kmVW2jIdi3rEcSYkm/exec"
-            method="POST">
-            <div class="form-group">
-              <label for="teacherName">Name</label>
-              <input type="text" class="form-control" id="teacherName" name="Name" placeholder="Enter teacher name"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="teacherEmail">Email Address</label>
-              <input type="email" class="form-control" id="teacherEmail" name="EmailAddress" placeholder="Enter email"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="teacherPhone">Phone Number</label>
-              <input type="tel" class="form-control" id="teacherPhone" name="PhoneNumber"
-                placeholder="Enter phone number" required />
-            </div>
-            <div class="form-group">
-              <label for="teacherSubject">Subject</label>
-              <input type="text" class="form-control" id="teacherSubject" name="Subject"
-                placeholder="Enter subject name" required />
-            </div>
-            <div class="form-group">
-              <label for="teacherExperience">Experience (years)</label>
-              <input type="number" class="form-control" id="teacherExperience" name="Experience"
-                placeholder="Enter years of experience" required />
-            </div>
-            <div class="form-group">
-              <label for="teacherCourses">Courses</label>
-              <select class="form-control" id="teacherCourses" name="Course" required>
-                <option value="">Select a course</option>
-                <option value="it">IT Course</option>
-                <option value="graphic_designing">Graphic Designing</option>
-                <option value="ui_ux">UI/UX</option>
-                <option value="app_development">App Development</option>
-                <option value="computer_course">Computer Course</option>
-                <option value="custom">Custom Course</option>
-              </select>
-            </div>
-            <div class="form-group" id="customCourseGroup" style="display: none;">
-              <label for="customCourse">Custom Course</label>
-              <input type="text" class="form-control" id="customCourse" name="CustomCourse"
-                placeholder="Enter custom course name" />
-              <button type="button" class="btn btn-custom mt-2" onclick="addCustomCourse()">Add Course</button>
-            </div>
-            <div class="btn-center btn-submit-enroll">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
+              action="https://script.google.com/macros/s/AKfycbxjisdunQmXRzHHXDx5u5Mg4AimyAzPUE360QQPdJ9utsihRr6kmVW2jIdi3rEcSYkm/exec"
+              method="POST" enctype="multipart/form-data">
+              <div class="form-group">
+                  <label for="teacherName">Name</label>
+                  <input type="text" class="form-control" id="teacherName" name="Name" placeholder="Enter teacher name" required />
+              </div>
+              <div class="form-group">
+                  <label for="teacherEmail">Email Address</label>
+                  <input type="email" class="form-control" id="teacherEmail" name="EmailAddress" placeholder="Enter email" required />
+              </div>
+              <div class="form-group">
+                  <label for="teacherPhone">Phone Number</label>
+                  <input type="tel" class="form-control" id="teacherPhone" name="PhoneNumber" placeholder="Enter phone number" required />
+              </div>
+              <div class="form-group">
+                  <label for="teacherSubject">Subject</label>
+                  <input type="text" class="form-control" id="teacherSubject" name="Subject" placeholder="Enter subject name" required />
+              </div>
+              <div class="form-group">
+                  <label for="teacherExperience">Experience (years)</label>
+                  <input type="number" class="form-control" id="teacherExperience" name="Experience" placeholder="Enter years of experience" required />
+              </div>
+              <div class="form-group">
+                  <label for="teacherCourses">Courses</label>
+                  <select class="form-control" id="teacherCourses" name="Course" required>
+                      <option value="">Select a course</option>
+                      <option value="it_basics">IT Basics</option>
+                      <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
+                      <option value="ui_ux_foundations">Foundations of UI/UX</option>
+                      <option value="basic_computer_course">Basic Computer Course</option>
+                      <option value="app_development_intro">Introduction to App Development</option>
+                  </select>
+              </div>
+              <div class="form-group" id="customCourseGroup" style="display: none;">
+                  <label for="customCourse">Custom Course</label>
+                  <input type="text" class="form-control" id="customCourse" name="CustomCourse" placeholder="Enter custom course name" />
+                  <button type="button" class="btn btn-custom mt-2" onclick="addCustomCourse()">Add Course</button>
+              </div>
+              <div class="form-group">
+                  <label for="teacherQualification">Qualification</label>
+                  <select class="form-control" id="teacherQualification" name="Qualification" required>
+                      <option value="">Select your qualification</option>
+                      <option value="bachelor">Bachelor's Degree</option>
+                      <option value="master">Master's Degree</option>
+                      <option value="phd">Ph.D.</option>
+                      <option value="diploma">Diploma</option>
+                      <option value="certificate">Certificate</option>
+                      <!-- Add more qualifications as needed -->
+                  </select>
+              </div>
+              <div class="form-group">
+                  <label for="cvUpload">Upload CV</label>
+                  <input type="file" class="form-control" id="cvUpload" name="CVUpload" accept=".pdf,.doc,.docx" required />
+              </div>
+              <div class="btn-center btn-submit-enroll">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
           </form>
-        </div>
+      </div>
+      
       </div>
     </div>
     <!-- Start Footer Area -->
 
     <footer class="footer-section pt-100">
-      <div class="container">
-        <div class="subscribe-area">
-          <div class="row align-items-center">
-            <div class="col-lg-6 col-md-6">
-              <div class="subscribe-content">
-                <h2>Join Our Newsletter</h2>
-                <p>
-                  News letter dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6">
-              <form class="newsletter-form">
-                <input type="email" class="input-newsletter" placeholder="Enter your email" name="EMAIL" required
-                  autocomplete="off" />
-                <button type="submit">
-                  Subscribe Now
-                  <i class="flaticon-right"></i>
-                </button>
-                <div id="validator-newsletter" class="form-result"></div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+   
 
       <div class="container">
         <div class="row">
@@ -311,13 +294,22 @@
               <div class="footer-info-contact">
                 <i class="flaticon-pin"></i>
                 <h3>Location</h3>
-                <span>Islamabad, Pakistan</span>
+                <span>CB218 Nosha Building, Street No. #2, Altamash Road Dheri Hassan Abad, RWP Cant</span>
               </div>
 
               <div class="footer-info-contact">
                 <i class="flaticon-call"></i>
                 <h3>Call Us</h3>
-                <span><a href="tel:+882-569-756">03001234567</a></span>
+                <span>
+                  <div>
+                    <a href="tel:+92 333 512 8839">+92 333 512 8839</a>
+  
+                  </div>
+                  <div>
+  
+                    <a href="tel:+92 317 572 3180">+92 317 572 3180</a>
+                  </div>
+                </span>
               </div>
 
               <div class="footer-info-contact">
@@ -326,7 +318,7 @@
                 <span>
                   <a
                     href="https://templates.envytheme.com/cdn-cgi/l/email-protection#771f121b1b18371f0205021a165914181a">
-                    <span>info@sehalwelfare.org</a>
+                    <span>swfoundation23@gmail.com</a>
                 </span>
                 </a>
                 </span>
@@ -419,7 +411,7 @@
                   <script>
                     document.write(new Date().getFullYear());
                   </script>
-                  Sehal Welfare. All Rights Reserved
+                  Sehal Welfare Foundation. All Rights Reserved
                 </p>
               </div>
               <div class="col-lg-4 col-md-6">

@@ -2,9 +2,7 @@ body {
   background-color: #f8f9fa;
   font-family: "Arial", sans-serif;
 }
-.container {
-  margin-top: 50px;
-}
+
 .toggle-buttons {
   display: flex;
   justify-content: center;
