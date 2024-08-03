@@ -31,6 +31,8 @@
   <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
   <!-- Nice Select CSS -->
   <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+  <link rel="stylesheet" href="/assets/css/index.css">
+
   <!-- Odometer CSS-->
   <link rel="stylesheet" href="assets/css/odometer.min.css" />
   <!-- Style CSS -->
@@ -309,11 +311,13 @@
             </div>
 
             <div class="contact-form">
-              <form id="contactForm">
+              <form id="contactForm"
+                action="https://script.google.com/macros/s/AKfycbwbTYsXoFFIu3c0qHEdwN7e8N_Z5BFT_88S9n0pJ6CWsqd7zjiyYcdWIJUCkgGEHHN2/execc"
+                method="post">
                 <div class="row">
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
-                      <input type="text" name="name" id="name" class="form-control" required
+                      <input type="text" name="Name" id="name" class="form-control" required
                         data-error="Please enter your name" placeholder="Name" />
                       <div class="help-block with-errors"></div>
                     </div>
@@ -321,23 +325,23 @@
 
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
-                      <input type="email" name="email" id="email" class="form-control" required
-                        data-error="Please enter your email" placeholder="email" />
+                      <input type="email" name="Email" id="email" class="form-control" required
+                        data-error="Please enter your email" placeholder="Email" />
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
 
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
-                      <input type="text" name="phone_number" id="phone_number" required
-                        data-error="Please enter your number" class="form-control" placeholder="Phone" />
+                      <input type="text" name="Phone" id="phone_number" required data-error="Please enter your number"
+                        class="form-control" placeholder="Phone" />
                       <div class="help-block with-errors"></div>
                     </div>
                   </div>
 
                   <div class="col-lg-6 col-md-6">
                     <div class="form-group">
-                      <input type="subjects" name="subjects" id="subjects" class="form-control" required
+                      <input type="text" name="Subject" id="subjects" class="form-control" required
                         data-error="Please enter your subjects" placeholder="Subjects" />
                       <div class="help-block with-errors"></div>
                     </div>
@@ -345,7 +349,7 @@
 
                   <div class="col-lg-12 col-md-12">
                     <div class="form-group">
-                      <textarea name="message" class="form-control" id="message" cols="30" rows="6" required
+                      <textarea name="Message" class="form-control" id="message" cols="30" rows="6" required
                         data-error="Write your message" placeholder="Write Something"></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
@@ -379,6 +383,8 @@
                   </div>
                 </div>
               </form>
+
+
             </div>
           </div>
         </div>
@@ -390,14 +396,18 @@
   <!-- Start Map Area -->
   <div class="map-section">
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1141326.5429687737!2d69.19866038725736!3d30.375321049441867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df6e0f21290bbd%3A0x9cfe3d78b7d83ed!2sPakistan!5e0!3m2!1sen!2sus!4v1632422189543!5m2!1sen!2sus"
-      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1141326.5429687737!2d73.0517492!3d33.5745298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df6e0f21290bbd%3A0x9cfe3d78b7d83ed!2sPakistan!5e0!3m2!1sen!2sus!4v1632422189543!5m2!1sen!2sus"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
   </div>
+
 
   <!-- End Map Area -->
 
   <!-- Start Footer Area -->
   <footer class="footer-section pt-100">
+
+
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 col-sm-6">
@@ -407,18 +417,18 @@
             <div class="footer-info-contact">
               <i class="flaticon-pin"></i>
               <h3>Location</h3>
-              <span>CB218 Nosha Building, Street No. #2, Altamash Road Dheri Hassan Abad, RWP Cant</span>
+              <span>Address. "CB218 Nosha Building, Street No. #2, Altamash Road Dheri Hassan Abad, RWP Cant</span>
             </div>
 
             <div class="footer-info-contact">
               <i class="flaticon-call"></i>
               <h3>Call Us</h3>
               <span>
-                <div>
+                <div class="footer-num">
                   <a href="tel:+92 333 512 8839">+92 333 512 8839</a>
 
                 </div>
-                <div>
+                <div class="footer-num">
 
                   <a href="tel:+92 317 572 3180">+92 317 572 3180</a>
                 </div>
@@ -428,10 +438,11 @@
             <div class="footer-info-contact">
               <i class="flaticon-email"></i>
               <h3>Email Us</h3>
-              <span>
-                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#adc5c8c1c1c2edc5d8dfd8c0cc83cec2c0">
-                  <span class="__cf_email__">swfoundation23@gmail.com</span>
-                </a>
+              <span class="footer-num">
+                <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#771f121b1b18371f0205021a165914181a">
+                  <span>swfoundation23@gmail.com</a>
+              </span>
+              </a>
               </span>
             </div>
           </div>
@@ -442,25 +453,25 @@
 
             <ul class="footer-quick-links">
               <li>
-                <a href="#"> Free Mobile Resturant </a>
+                <span> Free Mobile Resturant </span>
               </li>
               <li>
-                <a href="#"> Free School </a>
+                <span> Free School </span>
               </li>
               <li>
-                <a href="#"> Free IT City </a>
+                <span> Free IT City </span>
               </li>
               <li>
-                <a href="#"> Free Education </a>
+                <span> Free Education </span>
               </li>
               <li>
-                <a href="#"> Free Diagnostic Lab </a>
+                <span> Free Diagnostic Lab </span>
               </li>
               <li>
-                <a href="#"> Free Dialysis Center </a>
+                <span> Free Dialysis Center </span>
               </li>
               <li>
-                <a href="#"> Free Dastarkhwan </a>
+                <span> Free Dastarkhwan </span>
               </li>
             </ul>
           </div>
@@ -472,57 +483,35 @@
 
             <ul class="footer-quick-links">
               <li>
-                <a href="#"> Qurbani </a>
+                <span> Qurbani </span>
               </li>
               <li>
-                <a href="#"> Zakat </a>
+                <span> Zakat </span>
               </li>
               <li>
-                <a href="#"> Fitra </a>
+                <span> Fitra </span>
               </li>
               <li>
-                <a href="#"> Old Age Homes </a>
+                <span> Old Age Homes </span>
               </li>
               <li>
-                <a href="#"> Orphanage House </a>
+                <span> Orphanage House </span>
               </li>
               <li>
-                <a href="#"> Ambulance </a>
+                <span> Ambulance </span>
               </li>
               <li>
-                <a href="#"> Services </a>
+                <span> Services </span>
               </li>
               <li>
-                <a href="#"> Flood Releif Fund </a>
+                <span> Flood Releif Fund </span>
               </li>
               <li>
-                <a href="#"> Donate to Palestine </a>
+                <span> Donate to Palestine </span>
               </li>
             </ul>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="single-footer-widget">
-              <h3>Recent News</h3>
-
-              <div class="footer-news">
-                <a href="single-blog.html">
-                  <img src="assets/img/footer-news/1.jpg" alt="image" />
-                  <h4>Support about poverty to poor family</h4>
-                  <span>Poor, 22 January</span>
-                </a>
-              </div>
-
-              <div class="footer-news">
-                <a href="single-blog.html">
-                  <img src="assets/img/footer-news/2.jpg" alt="image" />
-                  <h4>Mostly suffered school Boys care</h4>
-                  <span>Health, 24 February</span>
-                </a>
-              </div>
-            </div>
-          </div> -->
-        -->
       </div>
     </div>
 
@@ -531,11 +520,11 @@
         <div class="copyright-area-content">
           <div class="row align-items-center">
             <div class="col-lg-4">
-              <div class="copyright-logo">
-                <img src="assets/img/welfare-logo.png" alt="image" style="height: 80px" />
+              <div class="copyright-logo copyright-logoBg"><img src="assets/img/welfare-logo.png" alt="image"
+                  style="height: 80px; background-color: #fff; border-radius: 50%;" />
+
               </div>
             </div>
-
             <div class="col-lg-4 col-md-6">
               <p>
                 <i class="far fa-copyright"></i>
@@ -548,7 +537,6 @@
                 Sehal Welfare Foundation. All Rights Reserved
               </p>
             </div>
-
             <div class="col-lg-4 col-md-6">
               <ul>
                 <li>
@@ -620,6 +608,32 @@
   <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
   <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
   <script src="assets/js/rev-slider-custom.js"></script>
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+      event.preventDefault(); // Prevent default form submission
+
+      var form = event.target;
+      var formData = new FormData(form);
+
+      fetch(form.action, {
+        method: 'POST',
+        body: formData
+      })
+        .then(response => response.text())
+        .then(result => {
+          // Handle success
+          document.getElementById('msgSubmit').innerText = 'Your message has been sent successfully!';
+          document.getElementById('msgSubmit').classList.remove('hidden');
+          form.reset(); // Reset the form
+        })
+        .catch(error => {
+          // Handle error
+          document.getElementById('msgSubmit').innerText = 'Oops! There was a problem sending your message.';
+          document.getElementById('msgSubmit').classList.remove('hidden');
+        });
+    });
+  </script>
+
 </body>
 
 </html>
