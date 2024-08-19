@@ -56,21 +56,22 @@
       <div class="huruma-nav">
         <div class="container">
           <nav class="navbar navbar-expand-md navbar-light">
+            <!-- Navbar Brand (Logo) -->
             <a class="navbar-brand" href="index.html">
               <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo" />
               <img src="assets/img/welfare-logo.png" class="black-logo" alt="image" />
             </a>
             <!-- Navbar Toggler Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a href="index.html" class="nav-link">Home</a>
                 </li>
-           
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
@@ -79,22 +80,20 @@
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a href="Goals.html" class="dropdown-item">Our Goals</a>
                     <a href="about.html" class="dropdown-item">About Us</a>
-                    <!-- <a href="Enrollment.html" class="dropdown-item">Enrollment</a>
-                    <a href="single-Projects.html" class="dropdown-item">Projects</a> -->
-                </div>
+                  </div>
                 </li>
                 <li class="nav-item dropdown">
-                  <a href="Enrollment.html" class="nav-link" id="blogDropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                  <a href="Enrollment.html" class="nav-link" id="blogDropdown" role="button" aria-haspopup="true"
+                    aria-expanded="false">
                     Enrollment
                   </a>
                 </li>
                 <li class="nav-item">
                   <a href="contact.html" class="nav-link">Contact</a>
                 </li>
-               
               </ul>
-              <div class="others-options">
-                <div class="option-item">
+              <div class="others-options d-flex align-items-center">
+                <div class="option-item d-none d-md-block">
                   <i class="close-btn bx bx-x"></i>
                   <div class="search-overlay search-popup">
                     <div class="search-box">
@@ -107,7 +106,8 @@
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-custom p-2 rounded" style="background-color: #f07d1f; color: white;" onclick="window.location.href='Donate.html'">
+                <button class="btn btn-custom p-2 rounded ml-3" style="background-color: #f07d1f; color: white;"
+                  onclick="window.location.href='Donate.html'">
                   Donate Now
                 </button>
               </div>
@@ -134,133 +134,142 @@
       </div>
     </div>
     <!-- End Page Title Area -->
-    <div class="container enroll">
-      <h1 class="text-center mb-4">Enrollment Form</h1>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+          <div class="enroll">
+            <h1 class="text-center mb-4">Enrollment Form</h1>
 
-      <!-- Toggle Buttons -->
-      <div class="toggle-buttons text-center mb-4">
-        <button id="studentButton" class="btn btn-primary mx-2 inactive" onclick="showForm('student')">
-          Student Enrollment
-        </button>
-        <button id="teacherButton" class="btn btn-secondary mx-2 inactive" onclick="showForm('teacher')">
-          Teacher Enrollment
-        </button>
-      </div>
+            <!-- Toggle Buttons -->
+            <div class="toggle-buttons text-center mb-4">
+              <button id="studentButton" class="btn btn-primary mx-2 inactive" onclick="showForm('student')">
+                Student Enrollment
+              </button>
+              <button id="teacherButton" class="btn btn-secondary mx-2 inactive" onclick="showForm('teacher')">
+                Teacher Enrollment
+              </button>
+            </div>
 
-      <!-- Form Container -->
-      <div class="form-container">
-        <!-- Student Enrollment -->
-        <div id="studentForm" class="form-section">
-          <div class="form-header">
-            <h2>Be a Student</h2>
-          </div>
-          <form
-            action="https://script.google.com/macros/s/AKfycbzDiYMJDYuYzyHw26TXAYbk0oJvYf6iMK-2uRWKmxHvP0Xfozychobx8sTlzfgbXAO-/exec"
-            method="POST">
-            <div class="form-group">
-              <label for="studentName">Name</label>
-              <input type="text" class="form-control" id="studentName" name="Name" placeholder="Enter student name"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="fatherName">Father's Name</label>
-              <input type="text" class="form-control" id="fatherName" name="FatherName"
-                placeholder="Enter father's name" required />
-            </div>
-            <div class="form-group">
-              <label for="cnic">CNIC Number</label>
-              <input type="text" class="form-control" id="cnic" name="CNICNumber" placeholder="Enter CNIC number"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="studentPhone">Phone Number</label>
-              <input type="tel" class="form-control" id="studentPhone" name="PhoneNumber"
-                placeholder="Enter phone number" required />
-            </div>
-            <div class="form-group">
-              <label for="studentEmail">Email Address</label>
-              <input type="email" class="form-control" id="studentEmail" name="EmailAddress" placeholder="Enter email"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="studentCell">Cell Number</label>
-              <input type="tel" class="form-control" id="studentCell" name="CellNumber" placeholder="Enter cell number"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="guardianPhone">Guardian Phone Number</label>
-              <input type="tel" class="form-control" id="guardianPhone" name="GuardianPhoneNumber"
-                placeholder="Enter guardian phone number" required />
-            </div>
-            <div class="form-group">
-              <label for="postalAddress">Postal Address</label>
-              <textarea class="form-control" id="postalAddress" name="PostalAddress" rows="3"
-                placeholder="Enter postal address" required></textarea>
-            </div>
-            <div class="form-group">
-              <label for="studentCourse">Course</label>
-              <select class="form-control" id="studentCourse" name="Course" required>
-                <option value="">Select a course</option>
-                <option value="it_basics">IT Basics</option>
-                <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
-                <option value="ui_ux_foundations">Foundations of UI/UX</option>
-                <option value="basic_computer_course">Basic Computer Course</option>
-                <option value="app_development_intro">Introduction to App Development</option>
-              </select>
-            </div>
-            <div class="btn-center btn-submit-enroll">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </form>
-        </div>
-
-        <!-- Teacher Enrollment -->
-        <div id="teacherForm" class="form-section">
-          <div class="form-header">
-              <h2>Be a Teacher</h2>
-          </div>
-          <form
-              action="https://script.google.com/macros/s/AKfycbxjisdunQmXRzHHXDx5u5Mg4AimyAzPUE360QQPdJ9utsihRr6kmVW2jIdi3rEcSYkm/exec"
-              method="POST" enctype="multipart/form-data">
-              <div class="form-group">
-                  <label for="teacherName">Name</label>
-                  <input type="text" class="form-control" id="teacherName" name="Name" placeholder="Enter teacher name" required />
-              </div>
-              <div class="form-group">
-                  <label for="teacherEmail">Email Address</label>
-                  <input type="email" class="form-control" id="teacherEmail" name="EmailAddress" placeholder="Enter email" required />
-              </div>
-              <div class="form-group">
-                  <label for="teacherPhone">Phone Number</label>
-                  <input type="tel" class="form-control" id="teacherPhone" name="PhoneNumber" placeholder="Enter phone number" required />
-              </div>
-              <div class="form-group">
-                  <label for="teacherSubject">Subject</label>
-                  <input type="text" class="form-control" id="teacherSubject" name="Subject" placeholder="Enter subject name" required />
-              </div>
-              <div class="form-group">
-                  <label for="teacherExperience">Experience (years)</label>
-                  <input type="number" class="form-control" id="teacherExperience" name="Experience" placeholder="Enter years of experience" required />
-              </div>
-              <div class="form-group">
-                  <label for="teacherCourses">Courses</label>
-                  <select class="form-control" id="teacherCourses" name="Course" required>
+            <!-- Form Container -->
+            <div class="form-container">
+              <!-- Student Enrollment -->
+              <div id="studentForm" class="form-section">
+                <div class="form-header">
+                  <h2>Be a Student</h2>
+                </div>
+                <form
+                  action="https://script.google.com/macros/s/AKfycbzDiYMJDYuYzyHw26TXAYbk0oJvYf6iMK-2uRWKmxHvP0Xfozychobx8sTlzfgbXAO-/exec"
+                  method="POST">
+                  <div class="form-group">
+                    <label for="studentName">Name</label>
+                    <input type="text" class="form-control" id="studentName" name="Name"
+                      placeholder="Enter student name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="fatherName">Father's Name</label>
+                    <input type="text" class="form-control" id="fatherName" name="FatherName"
+                      placeholder="Enter father's name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="cnic">CNIC Number</label>
+                    <input type="text" class="form-control" id="cnic" name="CNICNumber" placeholder="Enter CNIC number"
+                      required />
+                  </div>
+                  <div class="form-group">
+                    <label for="studentPhone">Phone Number</label>
+                    <input type="tel" class="form-control" id="studentPhone" name="PhoneNumber"
+                      placeholder="Enter phone number" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="studentEmail">Email Address</label>
+                    <input type="email" class="form-control" id="studentEmail" name="EmailAddress"
+                      placeholder="Enter email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="studentCell">Cell Number</label>
+                    <input type="tel" class="form-control" id="studentCell" name="CellNumber"
+                      placeholder="Enter cell number" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="guardianPhone">Guardian Phone Number</label>
+                    <input type="tel" class="form-control" id="guardianPhone" name="GuardianPhoneNumber"
+                      placeholder="Enter guardian phone number" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="postalAddress">Postal Address</label>
+                    <textarea class="form-control" id="postalAddress" name="PostalAddress" rows="3"
+                      placeholder="Enter postal address" required></textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="studentCourse">Course</label>
+                    <select class="form-control" id="studentCourse" name="Course" required>
                       <option value="">Select a course</option>
                       <option value="it_basics">IT Basics</option>
                       <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
                       <option value="ui_ux_foundations">Foundations of UI/UX</option>
                       <option value="basic_computer_course">Basic Computer Course</option>
                       <option value="app_development_intro">Introduction to App Development</option>
-                  </select>
+                    </select>
+                  </div>
+                  <div class="btn-center btn-submit-enroll">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
               </div>
-              <div class="form-group" id="customCourseGroup" style="display: none;">
-                  <label for="customCourse">Custom Course</label>
-                  <input type="text" class="form-control" id="customCourse" name="CustomCourse" placeholder="Enter custom course name" />
-                  <button type="button" class="btn btn-custom mt-2" onclick="addCustomCourse()">Add Course</button>
-              </div>
-              <div class="form-group">
-                  <label for="teacherQualification">Qualification</label>
-                  <select class="form-control" id="teacherQualification" name="Qualification" required>
+
+              <!-- Teacher Enrollment -->
+              <div id="teacherForm" class="form-section">
+                <div class="form-header">
+                  <h2>Be a Teacher</h2>
+                </div>
+                <form
+                  action="https://script.google.com/macros/s/AKfycbxjisdunQmXRzHHXDx5u5Mg4AimyAzPUE360QQPdJ9utsihRr6kmVW2jIdi3rEcSYkm/exec"
+                  method="POST" enctype="multipart/form-data">
+                  <div class="form-group">
+                    <label for="teacherName">Name</label>
+                    <input type="text" class="form-control" id="teacherName" name="Name"
+                      placeholder="Enter teacher name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="teacherEmail">Email Address</label>
+                    <input type="email" class="form-control" id="teacherEmail" name="EmailAddress"
+                      placeholder="Enter email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="teacherPhone">Phone Number</label>
+                    <input type="tel" class="form-control" id="teacherPhone" name="PhoneNumber"
+                      placeholder="Enter phone number" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="teacherSubject">Subject</label>
+                    <input type="text" class="form-control" id="teacherSubject" name="Subject"
+                      placeholder="Enter subject name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="teacherExperience">Experience (years)</label>
+                    <input type="number" class="form-control" id="teacherExperience" name="Experience"
+                      placeholder="Enter years of experience" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="teacherCourses">Courses</label>
+                    <select class="form-control" id="teacherCourses" name="Course" required>
+                      <option value="">Select a course</option>
+                      <option value="it_basics">IT Basics</option>
+                      <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
+                      <option value="ui_ux_foundations">Foundations of UI/UX</option>
+                      <option value="basic_computer_course">Basic Computer Course</option>
+                      <option value="app_development_intro">Introduction to App Development</option>
+                    </select>
+                  </div>
+                  <div class="form-group" id="customCourseGroup" style="display: none;">
+                    <label for="customCourse">Custom Course</label>
+                    <input type="text" class="form-control" id="customCourse" name="CustomCourse"
+                      placeholder="Enter custom course name" />
+                    <button type="button" class="btn btn-custom mt-2" onclick="addCustomCourse()">Add Course</button>
+                  </div>
+                  <div class="form-group">
+                    <label for="teacherQualification">Qualification</label>
+                    <select class="form-control" id="teacherQualification" name="Qualification" required>
                       <option value="">Select your qualification</option>
                       <option value="bachelor">Bachelor's Degree</option>
                       <option value="master">Master's Degree</option>
@@ -268,20 +277,24 @@
                       <option value="diploma">Diploma</option>
                       <option value="certificate">Certificate</option>
                       <!-- Add more qualifications as needed -->
-                  </select>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="cvUpload">Upload CV</label>
+                    <input type="file" class="form-control" id="cvUpload" name="CVUpload" accept=".pdf,.doc,.docx"
+                      required />
+                  </div>
+                  <div class="btn-center btn-submit-enroll">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </form>
               </div>
-              <div class="form-group">
-                  <label for="cvUpload">Upload CV</label>
-                  <input type="file" class="form-control" id="cvUpload" name="CVUpload" accept=".pdf,.doc,.docx" required />
-              </div>
-              <div class="btn-center btn-submit-enroll">
-                  <button type="submit" class="btn btn-primary">Submit</button>
-              </div>
-          </form>
-      </div>
-      
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <!-- Start Footer Area -->
 
     <footer class="footer-section pt-100">
@@ -292,33 +305,34 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-footer-widget">
               <h3>Contact info</h3>
-  
+
               <div class="footer-info-contact">
                 <i class="flaticon-pin"></i>
                 <h3>Location</h3>
                 <span>Address. "CB218 Nosha Building, Street No. #2, Altamash Road Dheri Hassan Abad, RWP Cant</span>
               </div>
-  
+
               <div class="footer-info-contact">
                 <i class="flaticon-call"></i>
                 <h3>Call Us</h3>
                 <span>
                   <div class="footer-num">
                     <a href="tel:+92 333 512 8839">+92 333 512 8839</a>
-  
+
                   </div>
                   <div class="footer-num">
-  
+
                     <a href="tel:+92 317 572 3180">+92 317 572 3180</a>
                   </div>
                 </span>
               </div>
-  
+
               <div class="footer-info-contact">
                 <i class="flaticon-email"></i>
                 <h3>Email Us</h3>
                 <span class="footer-num">
-                  <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#771f121b1b18371f0205021a165914181a">
+                  <a
+                    href="https://templates.envytheme.com/cdn-cgi/l/email-protection#771f121b1b18371f0205021a165914181a">
                     <span>swfoundation23@gmail.com</a>
                 </span>
                 </a>
@@ -329,7 +343,7 @@
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="single-footer-widget">
               <h3>Our Support</h3>
-  
+
               <ul class="footer-quick-links">
                 <li>
                   <span> Free Mobile Resturant </span>
@@ -355,11 +369,11 @@
               </ul>
             </div>
           </div>
-  
+
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="single-footer-widget">
               <h3>Our Campaigns</h3>
-  
+
               <ul class="footer-quick-links">
                 <li>
                   <span> Qurbani </span>
@@ -393,7 +407,7 @@
           </div>
         </div>
       </div>
-  
+
       <div class="copyright-area">
         <div class="container">
           <div class="copyright-area-content">
@@ -401,7 +415,7 @@
               <div class="col-lg-4">
                 <div class="copyright-logo copyright-logoBg"><img src="assets/img/welfare-logo.png" alt="image"
                     style="height: 80px; background-color: #fff; border-radius: 50%;" />
-  
+
                 </div>
               </div>
               <div class="col-lg-4 col-md-6">
@@ -472,7 +486,57 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Meanmenu JS -->
+  <script src="assets/js/jquery.meanmenu.js"></script>
+  <!-- Easing Min JS -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <!-- Owl Carousel JS -->
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <!-- Owl Magnific JS -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Nice Select JS -->
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <!-- Appear JS -->
+  <script src="assets/js/jquery.appear.js"></script>
+  <!-- Odometer JS -->
+  <script src="assets/js/odometer.min.js"></script>
+  <!-- Image Light Box JS -->
+  <script src="assets/js/imagelightbox.min.js"></script>
+  <!-- Form Ajaxchimp JS -->
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+  <!-- Form Validator JS -->
+  <script src="assets/js/form-validator.min.js"></script>
+  <!-- Contact JS -->
+  <script src="assets/js/contact-form-script.js"></script>
+  <!-- Custom JS -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/crousel.js"></script>
+  <!-- Slider Revolution core JavaScript files -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+  <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+  <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>

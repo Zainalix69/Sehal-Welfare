@@ -53,21 +53,22 @@
     <div class="huruma-nav">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
+          <!-- Navbar Brand (Logo) -->
           <a class="navbar-brand" href="index.html">
             <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo" />
             <img src="assets/img/welfare-logo.png" class="black-logo" alt="image" />
           </a>
           <!-- Navbar Toggler Button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
-
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
@@ -76,8 +77,6 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a href="Goals.html" class="dropdown-item">Our Goals</a>
                   <a href="about.html" class="dropdown-item">About Us</a>
-                  <!-- <a href="Enrollment.html" class="dropdown-item">Enrollment</a>
-                  <a href="single-Projects.html" class="dropdown-item">Projects</a> -->
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -89,10 +88,9 @@
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
               </li>
-
             </ul>
-            <div class="others-options">
-              <div class="option-item">
+            <div class="others-options d-flex align-items-center">
+              <div class="option-item d-none d-md-block">
                 <i class="close-btn bx bx-x"></i>
                 <div class="search-overlay search-popup">
                   <div class="search-box">
@@ -105,7 +103,7 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-custom p-2 rounded" style="background-color: #f07d1f; color: white;"
+              <button class="btn btn-custom p-2 rounded ml-3" style="background-color: #f07d1f; color: white;"
                 onclick="window.location.href='Donate.html'">
                 Donate Now
               </button>
@@ -114,8 +112,7 @@
         </nav>
       </div>
     </div>
-  </div>
-  <div class="page-title-area">
+  </div>  <div class="page-title-area">
     <div class="d-table">
       <div class="d-table-cell">
         <div class="container">
@@ -140,7 +137,7 @@
       <h2>Select Donation Amount and Purpose</h2>
       <div class="form-group">
         <label for="amount">Amount:</label>
-        <input type="number" id="amount" class="form-control" required>
+        <input type="number" id="amount" class="form-control" min="0" required>
       </div>
       <div class="form-group">
         <label for="currency">Currency:</label>
@@ -191,38 +188,109 @@
         <button class="btn btn-primary btn-margin" onclick="nextStep(3)">Next</button>
       </div>
     </div>
+
     <div id="formStep3" class="form-step" style="display: none;">
-      <h2>Payment Details</h2>
-      <div class="form-group">
+      <h2 class="d-flex justify-content-center m-5">Payment Details</h2>
+      <div class="container-fluid">
         <div class="row">
-          <!-- EasyPaisa Details -->
-          <div class="col-md-6">
-            <div class="payment-detail">
-              <label class="payment-label">EasyPaisa</label>
-              <div class="payment-info">
-                <h3 class="payment-number">03175723180</h3>
+          <!-- Sidebar with account names -->
+          <nav id="sidebar" class="col-md-4">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link active" onclick="showDetails('allied')">Allied Bank PKR Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="showDetails('wiseEUR')">Wise EUR Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="showDetails('wiseUSD')">Wise USD Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="showDetails('wiseCAD')">Wise CAD Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="showDetails('wiseGBP')">Wise GBP Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="showDetails('easypaisa')">EasyPaisa</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Details section -->
+          <main role="main" class="col-md-8">
+            <div id="details">
+              <div id="allied" class="payment-details text-center" style="display: block;">
+                <h3>Allied Bank PKR Account</h3>
+                <img src="assets/img/bank/alliend bank.jpg" alt="Allied Bank" class="img-fluid mb-3">
+                <p>Account holder: Emad Ud Din Muhammad<br>
+                  Allied Bank Limited<br>
+                  10540010061778130017</p>
+              </div>
+              <div id="wiseEUR" class="payment-details text-center" style="display: none;">
+                <h3>Wise EUR Account</h3>
+                <img src="assets/img/bank/wise euro bank.png" alt="Wise EUR" class="img-fluid mb-3">
+                <p>Account holder: Emad Ud Din Muhammad<br>
+                  Swift/BIC: TRWIBEB1XXX<br>
+                  IBAN: BE35 9675 1263 2737<br>
+                  Bank name and address: Wise<br>
+                  Rue du Trône 100, 3rd floor<br>
+                  Brussels<br>
+                  1050<br>
+                  Belgium</p>
+              </div>
+              <div id="wiseUSD" class="payment-details text-center" style="display: none;">
+                <h3>Wise USD Account</h3>
+                <img src="assets/img/bank/wise usd bank.png" alt="Wise USD" class="img-fluid mb-3">
+                <p>Account holder: Emad Ud Din Muhammad<br>
+                  Swift/BIC: CMFGUS33<br>
+                  IBAN: BE65 9675 1263 2745<br>
+                  Bank name and address: Wise<br>
+                  Rue du Trône 100, 3rd floor<br>
+                  Brussels<br>
+                  1050<br>
+                  Belgium</p>
+              </div>
+              <div id="wiseCAD" class="payment-details text-center" style="display: none;">
+                <h3>Wise CAD Account</h3>
+                <img src="assets/img/bank/wise cad bank.png" alt="Wise CAD" class="img-fluid mb-3">
+                <p>Account holder: Emad Ud Din Muhammad<br>
+                  Swift/BIC: TRWICAW1XXX<br>
+                  IBAN: BE35 9675 1263 2752<br>
+                  Bank name and address: Wise<br>
+                  Rue du Trône 100, 3rd floor<br>
+                  Brussels<br>
+                  1050<br>
+                  Belgium</p>
+              </div>
+              <div id="wiseGBP" class="payment-details text-center" style="display: none;">
+                <h3>Wise GBP Account</h3>
+                <img src="assets/img/bank/wise gbp bank.png" alt="Wise GBP" class="img-fluid mb-3">
+                <p>Account holder: Emad Ud Din Muhammad<br>
+                  Swift/BIC: TRWIGB2LXXX<br>
+                  IBAN: GB36 TRWI 2314 7051 9552 75<br>
+                  Bank name and address: Wise Payments Limited<br>
+                  56 Shoreditch High Street<br>
+                  London<br>
+                  E1 6JJ<br>
+                  United Kingdom</p>
+              </div>
+              <div id="easypaisa" class="payment-details text-center" style="display: none;">
+                <h3>EasyPaisa</h3>
+                <img src="assets/img/bank/easypaisa.jpg" alt="EasyPaisa" class="img-fluid mb-3">
+                <p>Account holder: Emad Ud Din Muhammad<br>
+                  Mobile Number: +92 300 5040399</p>
               </div>
             </div>
-          </div>
-          <!-- Bank Account Details -->
-          <div class="col-md-6">
-            <div class="payment-detail">
-              <label class="payment-label">Bank Account</label>
-              <div class="payment-info">
-                <h3 class="payment-number">1267******</h3>
-              </div>
-            </div>
-          </div>
+          </main>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button class="btn btn-primary btn-margin m-5">Submit</button>
         </div>
       </div>
-      <div class="text-center">
-        <button class="btn btn-secondary btn-margin" onclick="previousStep(2)">Back</button>
-        <button class="btn btn-primary btn-margin" onclick="submitForm()">Submit Donation</button>
-      </div>
     </div>
+
   </div>
-
-
   <footer class="footer-section pt-100">
 
 

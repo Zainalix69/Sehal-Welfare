@@ -46,3 +46,20 @@ function submitForm() {
     alert("Donation Submitted!");
   }
 }
+
+
+
+function showDetails(id) {
+  const details = document.querySelectorAll('.payment-details');
+  details.forEach(detail => {
+    detail.style.display = 'none';
+  });
+  
+  const activeLink = document.querySelectorAll('.nav-link');
+  activeLink.forEach(link => {
+    link.classList.remove('active');
+  });
+  
+  document.getElementById(id).style.display = 'block';
+  document.querySelector(`a[onclick="showDetails('${id}')"]`).classList.add('active');
+}

@@ -64,21 +64,22 @@
     <div class="huruma-nav">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
+          <!-- Navbar Brand (Logo) -->
           <a class="navbar-brand" href="index.html">
             <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo" />
             <img src="assets/img/welfare-logo.png" class="black-logo" alt="image" />
           </a>
           <!-- Navbar Toggler Button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
-
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
@@ -87,8 +88,6 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a href="Goals.html" class="dropdown-item">Our Goals</a>
                   <a href="about.html" class="dropdown-item">About Us</a>
-                  <!-- <a href="Enrollment.html" class="dropdown-item">Enrollment</a>
-                    <a href="single-Projects.html" class="dropdown-item">Projects</a> -->
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -100,10 +99,9 @@
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
               </li>
-
             </ul>
-            <div class="others-options">
-              <div class="option-item">
+            <div class="others-options d-flex align-items-center">
+              <div class="option-item d-none d-md-block">
                 <i class="close-btn bx bx-x"></i>
                 <div class="search-overlay search-popup">
                   <div class="search-box">
@@ -116,7 +114,7 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-custom p-2 rounded" style="background-color: #f07d1f; color: white;"
+              <button class="btn btn-custom p-2 rounded ml-3" style="background-color: #f07d1f; color: white;"
                 onclick="window.location.href='Donate.html'">
                 Donate Now
               </button>
@@ -310,82 +308,78 @@
               </p>
             </div>
 
-            <div class="contact-form">
-              <form id="contactForm"
-                action="https://script.google.com/macros/s/AKfycbw3aoPDFT2dLQnO62Qju4EVLS-dLRXMIB8wAgb4jAhLyuQji1p8NHYwKw2ZYoUtOXll/exec"
-                method="post">
-                <div class="row">
-                  <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                      <input type="text" name="Name" id="name" class="form-control" required
-                        data-error="Please enter your name" placeholder="Name" />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                      <input type="email" name="Email" id="email" class="form-control" required
-                        data-error="Please enter your email" placeholder="Email" />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                      <input type="text" name="Phone" id="phone_number" required data-error="Please enter your number"
-                        class="form-control" placeholder="Phone" />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-6 col-md-6">
-                    <div class="form-group">
-                      <input type="text" name="Subject" id="subjects" class="form-control" required
-                        data-error="Please enter your subjects" placeholder="Subjects" />
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12 col-md-12">
-                    <div class="form-group">
-                      <textarea name="Message" class="form-control" id="message" cols="30" rows="6" required
-                        data-error="Write your message" placeholder="Write Something"></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12">
-                    <div class="form-group">
-                      <div class="form-check">
-                        <input name="gridCheck" value="I agree to the terms and privacy policy."
-                          class="form-check-input" type="checkbox" id="gridCheck" required />
-
-                        <label class="form-check-label" for="gridCheck">
-                          I agree to the <a href="#">terms</a> and
-                          <a href="#">privacy policy</a>
-                        </label>
-                        <div class="help-block with-errors gridCheck-error"></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-lg-12">
-                    <div class="send-btn">
-                      <button type="submit" class="default-btn">
-                        Contact us
-                        <i class="flaticon-right"></i>
-                        <span></span>
-                      </button>
-                    </div>
-                    <div id="msgSubmit" class="h3 text-center hidden"></div>
-                    <div class="clearfix"></div>
-                  </div>
-                </div>
-              </form>
-
-
+            <form id="contactForm" name="contact-form"
+            method="post" action="https://script.google.com/macros/s/AKfycbx4bchiYgbqOy056ijff1rQ92A_E8guPOXYZ2vg5P3bcCWSpdFltZsXYWbpkwHc9Up2/exec">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="Name" id="name" class="form-control" required
+                  data-error="Please enter your name" placeholder="Name" />
+                <div class="help-block with-errors"></div>
+              </div>
             </div>
+      
+            <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                <input type="email" name="Email" id="email" class="form-control" required
+                  data-error="Please enter your email" placeholder="Email" />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+      
+            <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="Phone" id="phone_number" required data-error="Please enter your number"
+                  class="form-control" placeholder="Phone" />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+      
+            <div class="col-lg-6 col-md-6">
+              <div class="form-group">
+                <input type="text" name="Subject" id="subjects" class="form-control" required
+                  data-error="Please enter your subjects" placeholder="Subjects" />
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+      
+            <div class="col-lg-12 col-md-12">
+              <div class="form-group">
+                <textarea name="Message" class="form-control" id="message" cols="30" rows="6" required
+                  data-error="Write your message" placeholder="Write Something"></textarea>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+      
+            <div class="col-lg-12">
+              <div class="form-group">
+                <div class="form-check">
+                  <input name="gridCheck" value="I agree to the terms and privacy policy."
+                    class="form-check-input" type="checkbox" id="gridCheck" required />
+      
+                  <label class="form-check-label" for="gridCheck">
+                    I agree to the <a href="#">terms</a> and
+                    <a href="#">privacy policy</a>
+                  </label>
+                  <div class="help-block with-errors gridCheck-error"></div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-lg-12">
+              <div class="send-btn">
+                <button type="submit" class="default-btn">
+                  Contact us
+                  <i class="flaticon-right"></i>
+                  <span></span>
+                </button>
+              </div>
+              <div id="msgSubmit" class="h3 text-center hidden"></div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+      </form>
+      
           </div>
         </div>
       </div>
@@ -608,31 +602,7 @@
   <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
   <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
   <script src="assets/js/rev-slider-custom.js"></script>
-  <script>
-    document.getElementById('contactForm').addEventListener('submit', function (event) {
-      event.preventDefault(); // Prevent default form submission
-
-      var form = event.target;
-      var formData = new FormData(form);
-
-      fetch(form.action, {
-        method: 'POST',
-        body: formData
-      })
-        .then(response => response.text())
-        .then(result => {
-          // Handle success
-          document.getElementById('msgSubmit').innerText = 'Your message has been sent successfully!';
-          document.getElementById('msgSubmit').classList.remove('hidden');
-          form.reset(); // Reset the form
-        })
-        .catch(error => {
-          // Handle error
-          document.getElementById('msgSubmit').innerText = 'Oops! There was a problem sending your message.';
-          document.getElementById('msgSubmit').classList.remove('hidden');
-        });
-    });
-  </script>
+ 
 
 </body>
 

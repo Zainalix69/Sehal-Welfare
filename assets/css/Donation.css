@@ -66,3 +66,29 @@
 .is-invalid {
   border-color: #dc3545;
 }
+
+#formStep3 {
+  padding: 20px;
+}
+
+#sidebar {
+  border-right: 1px solid #dee2e6;
+  padding-right: 15px;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+#details {
+  padding-left: 15px; 
+}
+
+#formStep3{
+  height: 100vh;
+}

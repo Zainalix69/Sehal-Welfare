@@ -44,6 +44,7 @@
   <link rel="stylesheet" href="assets/css/custom.css">
   <link rel="stylesheet" href="/assets/css/video.css">
   <link rel="stylesheet" href="/assets/css/index.css">
+  <link rel="stylesheet" href="/assets/css/crousel.css">
   <title>Sehal Welfare Foundation</title>
 
   <link rel="icon" type="image/png" href="assets/img/favicon.png" />
@@ -64,21 +65,23 @@
     <div class="huruma-nav">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
+          <!-- Navbar Brand (Logo) -->
           <a class="navbar-brand" href="index.html">
             <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo" />
             <img src="assets/img/welfare-logo.png" class="black-logo" alt="image" />
           </a>
           <!-- Navbar Toggler Button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
-
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
@@ -87,8 +90,6 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a href="Goals.html" class="dropdown-item">Our Goals</a>
                   <a href="about.html" class="dropdown-item">About Us</a>
-                  <!-- <a href="Enrollment.html" class="dropdown-item">Enrollment</a>
-                  <a href="single-Projects.html" class="dropdown-item">Projects</a> -->
                 </div>
               </li>
               <li class="nav-item dropdown">
@@ -100,10 +101,9 @@
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
               </li>
-
             </ul>
-            <div class="others-options">
-              <div class="option-item">
+            <div class="others-options d-flex">
+              <div class="option-item d-none d-md-block">
                 <i class="close-btn bx bx-x"></i>
                 <div class="search-overlay search-popup">
                   <div class="search-box">
@@ -116,7 +116,7 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-custom p-2 rounded" style="background-color: #f07d1f; color: white;"
+              <button class="btn btn-custom p-2 rounded ml-3" style="background-color: #f07d1f; color: white;"
                 onclick="window.location.href='Donate.html'">
                 Donate Now
               </button>
@@ -258,7 +258,7 @@
                 <div class="col-lg-7">
                   <div class="main-banner-content">
                     <span>Sehal Welfare Foundation</span>
-                    <h1>It is more difficult to give money away</h1>
+                    <h1>Where every life counts and every mind matters</h1>
                     <p>
                       Sehal Welfare Foundation commitment to addressing poverty and empowering individuals to
                       improve their lives
@@ -303,31 +303,40 @@
       <div class="row justify-content-center">
         <div class="col-md-8">
           <div class="president-content text-center">
-            <div class=" mb-4">
-              <img src="assets/img.jpg" alt="President Image" class="img-fluid" width="100%">
-            </div>
-            <div class="president-title">President Statement</div>
-            <div class="president-name">Captain (Retired) Ch Khalil Ahmed</div>
-            <p class="mt-4">I am an educationist with a Master's in Education, has been in the field of education since
-              2002. As the President of Sehal Welfare Foundation, I will try to bring a wealth of experience and a deep
-              commitment to uplifting underserved communities. I have been at the helm of EFA Montessori and High School
-              and EFA College, institutions registered with government authorities and affiliated with the Federal Board
-              of Education Islamabad. Under my leadership, these institutions have been providing quality education to
-              low-profile areas, making significant strides in improving educational outcomes for underserved
-              populations.</p>
-            <p>My vision and dedication continue to drive Sehal Welfare Foundation's mission of empowering individuals
-              especially woman through education, IT training and vocational training, fostering self-reliance, and
-              promoting sustainable community development. My vision is to create a world where every special child can
-              reach their full potential, thrive and feel valued. I strive to make a significant contribution in the
-              betterment of the society by accomplishing Sehal Welfare Foundation goals.</p>
-            <p>Remember every small action counts, and collective efforts can lead to significant positive change.</p>
-            <!-- <div class="mt-4">
+            <div class="carousel-sec mb-4">
+              <div class="carousel-container">
+                <div class="carousel-images">
+                  <img src="assets/img.jpg" alt="Image 1" class="carousel-image">
+                  <img src="assets/crousel-2.jpeg" alt="Image 2" class="carousel-image">
+                </div>
+              </div>
+              <div class="president-title">President Statement</div>
+              <div class="president-name">Captain (Retired) Ch Khalil Ahmed</div>
+              <p class="mt-4">I am an educationist with a Master's in Education, has been in the field of education
+                since
+                2002. As the President of Sehal Welfare Foundation, I will try to bring a wealth of experience and a
+                deep
+                commitment to uplifting underserved communities. I have been at the helm of EFA Montessori and High
+                School
+                and EFA College, institutions registered with government authorities and affiliated with the Federal
+                Board
+                of Education Islamabad. Under my leadership, these institutions have been providing quality education to
+                low-profile areas, making significant strides in improving educational outcomes for underserved
+                populations.</p>
+              <p>My vision and dedication continue to drive Sehal Welfare Foundation's mission of empowering individuals
+                especially woman through education, IT training and vocational training, fostering self-reliance, and
+                promoting sustainable community development. My vision is to create a world where every special child
+                can
+                reach their full potential, thrive and feel valued. I strive to make a significant contribution in the
+                betterment of the society by accomplishing Sehal Welfare Foundation goals.</p>
+              <p>Remember every small action counts, and collective efforts can lead to significant positive change.</p>
+              <!-- <div class="mt-4">
                     <strong>Regards</strong>
                 </div> -->
+            </div>
           </div>
         </div>
       </div>
-    </div>
   </section>
 
 
@@ -353,18 +362,19 @@
                   <a href="#"> Our Vision </a>
                 </li>
                 <li>
-                  <a href="#"> Our Goal </a>
+                  <a href="#"> Our Goals </a>
                 </li>
               </ul>
 
               <div class="tab_content">
                 <div class="tabs_item">
-                  <p>
-                    Sehal Welfare Foundation is dedicated to transforming lives through education, vocational training,
-                    and self-reliance initiatives. We strive to empower individuals by providing comprehensive education
-                    from Montessori to advanced IT training, supporting technical education in e-commerce and freelance
-                    work, and offering specialized support for special needs children. Our goal is to overcome
-                    unemployment, uplift communities, and support to the youth of Pakistan.
+                  <p>Sehal Welfare Foundation is dedicated to transforming lives through education, vocational training,
+                    healthcare services, and self-reliance initiatives. We strive to empower individuals by providing
+                    comprehensive education from Montessori to advanced IT training, supporting technical education in
+                    e-commerce and freelance work, and offering specialized support for special needs children.
+                    Additionally, we provide essential healthcare services, including general medical treatment,
+                    gynecological services, dental care, and general nursing care/training. Our goal is to overcome
+                    unemployment, uplift communities, and support the youth of Pakistan.
                   </p>
                   <a class="default-btn" href="#">
                     Our Mission
@@ -374,13 +384,18 @@
                 </div>
 
                 <div class="tabs_item">
-                  <p>
-                    Our vision is to create a society where every individual has the opportunity to achieve their
-                    fullest potential through access to quality education, technical and vocational training. We aspire
-                    to build a community that is self-reliant, confident, and capable of overcoming economic challenges.
-                    By fostering inclusivity, supporting special needs education, and promoting technical skills, we aim
-                    to uplift and empower the underserved, ensuring sustainable development and prosperity for all
-                  </p>
+                  <p>The vision of Sehal Welfare Foundation is to empower individuals and communities to thrive in a
+                    rapidly changing world by providing access to cutting-edge education, skill development, unlocking
+                    their potential and freelancing opportunities, fostering self-belief, independence, and social
+                    inclusion, thereby creating a self-sufficient society and a better world. Transforming the lives of
+                    underprivileged individuals by equipping women and individuals with diverse skills, knowledge, and
+                    confidence.
+                    We aim to provide comprehensive support, resources, and advocacy to special children and their
+                    families, fostering a society that embraces inclusivity, understanding, and compassion.
+                    Additionally, we offer essential healthcare services, including general medical treatment,
+                    gynecological services, dental care, and general nursing care/training. By addressing both
+                    educational and healthcare needs, we strive to break the cycle of poverty and foster a more
+                    inclusive and equitable society.</p>
                   <a class="default-btn" href="#">
                     Our Vision
                     <span></span>
@@ -646,17 +661,18 @@
                       </select>
                     </div>
 
-                    <div class="form-group">
-                      <button type="submit" class="default-btn-1 center-btn-1">
-                        <a href="Donate.html"> Donate Now</a>
-                        <span></span>
-                      </button>
+                    <div class="form-group text-center">
+                      <a href="Donate.html" class="btn btn-home-donation">
+                        Donate Now
+                      </a>
                     </div>
+
                   </div>
                 </div>
               </div>
-
+            </div>
           </form>
+
         </div>
       </div>
     </div>
@@ -945,7 +961,7 @@
   <script src="assets/js/contact-form-script.js"></script>
   <!-- Custom JS -->
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/crousel.js"></script>
   <!-- Slider Revolution core JavaScript files -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

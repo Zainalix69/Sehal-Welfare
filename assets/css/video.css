@@ -1,4 +1,10 @@
-.video-index{
+.video-index {
     margin-bottom: 5px;
     margin-top: 110px;
+}
+
+@media screen and (max-width: 991px) {
+    .video-index {
+        margin-top: 0;
+    }
 }

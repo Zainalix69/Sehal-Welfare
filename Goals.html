@@ -56,21 +56,22 @@
     <div class="huruma-nav">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light">
+          <!-- Navbar Brand (Logo) -->
           <a class="navbar-brand" href="index.html">
             <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo" />
             <img src="assets/img/welfare-logo.png" class="black-logo" alt="image" />
           </a>
           <!-- Navbar Toggler Button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse nav-links" id="navbarSupportedContent">
+          <!-- Navbar Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
-
               <li class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
                   aria-haspopup="true" aria-expanded="false">
@@ -90,10 +91,9 @@
               <li class="nav-item">
                 <a href="contact.html" class="nav-link">Contact</a>
               </li>
-
             </ul>
-            <div class="others-options">
-              <div class="option-item">
+            <div class="others-options d-flex align-items-center">
+              <div class="option-item d-none d-md-block">
                 <i class="close-btn bx bx-x"></i>
                 <div class="search-overlay search-popup">
                   <div class="search-box">
@@ -106,7 +106,7 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-custom p-2 rounded" style="background-color: #f07d1f; color: white;"
+              <button class="btn btn-custom p-2 rounded ml-3" style="background-color: #f07d1f; color: white;"
                 onclick="window.location.href='Donate.html'">
                 Donate Now
               </button>
@@ -148,12 +148,14 @@
         </div>
         <div class="col-md-6">
           <p>
-            "Sehal Welfare Foundation is dedicated to transforming the lives of individuals and families living in poverty, by
+            "Sehal Welfare Foundation is dedicated to transforming the lives of individuals and families living in
+            poverty, by
             providing access to education, economic opportunities, and resources, enabling them to break the cycle of
             poverty and improve their overall well-being."
           </p>
           <p>
-            Sehal Welfare Foundation provides access to Montessori to advanced IT training, vocational training, freelance work,
+            Sehal Welfare Foundation provides access to Montessori to advanced IT training, vocational training,
+            freelance work,
             and skills development programs. We offer economic opportunities and entrepreneurship support, special
             education, therapies, and social support services for special needs children. Our approach fosters community
             engagement, social cohesion, and collective empowerment.
@@ -176,27 +178,42 @@
         </span>
         <h2>Our Goals</h2>
       </div>
-      <div class="row">
+      <div class="row row-goals">
         <div class="col-md-6">
-          <img src="assets/img/hand-5786371_1280.jpg" alt="Objectives Image">
+          <img src="assets/img/donate-5281984_1280.jpg" alt="Objectives Image" class="centered-image">
         </div>
         <div class="col-md-6">
           <p>
-            "Sehal Welfare Foundation is here to empower families of special children by providing accessible and affordable
-            therapies, guidance, and support, enabling them to reach their full potential and live fulfilling lives,
+            "Sehal Welfare Foundation is here to empower families of special children by providing accessible and
+            affordable therapies, guidance, and support, enabling them to reach their full potential and live fulfilling
+            lives,
             while fostering a community of inclusivity, understanding, and compassion."
           </p>
           <ul class="objective-list">
-            <li>Provide subsidized or free therapies (e.g., ABA therapy, occupational therapy, speech therapy) for
-              children with conditions such as Autism, ADHD, Down syndrome, and more.</li>
-            <li>Offer guidance and training for parents on managing their child's condition.</li>
-            <li>Create a support network for families to connect and share experiences.</li>
-            <li>Raise awareness and promote inclusivity in the community.</li>
-            <li>Collaborate with healthcare professionals and organizations to amplify impact.</li>
-            <li>Continuously evaluate and improve services to meet evolving needs.</li>
+            <li><strong>Education for All:</strong> Provide comprehensive education from Montessori to advanced levels,
+              integrating with modern emerging digital tools.</li>
+            <li><strong>Technical Training:</strong> Establish training centers equipped with modern technology to offer
+              free courses in e-commerce, freelancing, and other IT-related fields to foster self-reliance and
+              employment.</li>
+            <li><strong>Healthcare for All:</strong> Establish healthcare centers providing essential medicines,
+              pregnancy and other medical treatments, and medical tests at subsidized rates to ensure access for
+              everyone, including humans and animals. We work to ease the financial burden on low-income families.</li>
+            <li><strong>Special Needs Support:</strong> Develop a rehabilitation center for special children, offering
+              tailored education and therapeutic services to ensure their inclusion and development.</li>
+            <li><strong>Women Empowerment and Vocational Training:</strong> Create vocational training programs like
+              nursing training to provide women with rewarding careers in healthcare. The programs also include skill
+              development in sewing, embroidery, beautician services, cooking, computer literacy, and more. We aim to
+              empower uneducated, less educated, and highly educated women to support themselves and their families.
+            </li>
+            <li><strong>Collective Weddings and Support:</strong> Provide bridal attire for brides and grooms, and
+              distribute food and dowry items to deserving and impoverished individuals. Organize collective weddings to
+              facilitate marriages in a simple and respectful manner.</li>
+            <li><strong>Green and Affordable Energy Solutions:</strong> Implement solar energy solutions for households
+              and community centers at subsidized rates to reduce electricity costs and promote sustainability.</li>
           </ul>
         </div>
       </div>
+
     </section>
   </div>
   <!-- Start Footer Area -->
@@ -399,6 +416,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
 </body>
 
 </html>

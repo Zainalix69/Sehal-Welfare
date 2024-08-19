@@ -15,16 +15,23 @@
 
 .default-btn-1 {
   display: block;
-  width: 100%;
+  width: 50%;
   margin: 0 auto;
   padding: 10px;
   text-align: center;
-background-color: #ff6015;
+  background-color: #ff6015;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-.default-btn-1 > a {
+.btn-home-donation{
+  /* margin: 162px -62px; */
+  background-color: #ff6015;
+color: white;
+padding: 10px;
+border-radius: 180px;
+}
+.default-btn-1>a {
   color: #fff;
   text-decoration: none;
 }
@@ -33,13 +40,16 @@ background-color: #ff6015;
   background-color: #0056b3;
   transition: 1s ease-in-out;
 }
-.footer-quick-links > li > span {
+
+.footer-quick-links>li>span {
   cursor: pointer;
 }
-.footer-quick-links > li > span {
+
+.footer-quick-links>li>span {
   cursor: pointer;
 }
-.footer-num > a {
+
+.footer-num>a {
   font-weight: bolder;
   text-decoration: underline;
 }

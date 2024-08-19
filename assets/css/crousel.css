@@ -1,0 +1,27 @@
+
+
+.carousel-sec {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    width: 100%;
+    flex: 0 0 100%;
+}
+
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
