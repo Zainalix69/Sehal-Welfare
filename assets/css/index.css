@@ -24,12 +24,17 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.btn-home-donation{
+
+.btn-home-donation {
   /* margin: 162px -62px; */
   background-color: #ff6015;
-color: white;
-padding: 10px;
-border-radius: 180px;
+  color: white;
+  padding: 10px;
+  border-radius: 180px;
+}
+.btn-home-donation:hover{
+  border: 1px solid black;
+  color: black;
 }
 .default-btn-1>a {
   color: #fff;
