@@ -5,21 +5,18 @@
 }
 
 .modal-lg {
-    max-width: 700px;
+    max-width: 70%;
 }
-
-/* Ensure the modal backdrop is behind the modal */
 .modal-backdrop {
     z-index: 1000 !important;
     /* Ensure it’s below the modal */
     pointer-events: none;
-    /* Allow clicks to pass through */
 }
 
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
+    height: 100%;
     overflow: hidden;
     width: 100%;
 }
@@ -48,4 +45,8 @@
     .modal-content {
         margin: 0;
     }
+}
+
+#videoModal{
+    background-color: rgba(12, 6, 6, 0.598);
 }

@@ -63,3 +63,24 @@ function showDetails(id) {
   document.getElementById(id).style.display = 'block';
   document.querySelector(`a[onclick="showDetails('${id}')"]`).classList.add('active');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Retrieve the data from local storage
+  const donationAmount = localStorage.getItem('donationAmount');
+  const donationCurrency = localStorage.getItem('donationCurrency');
+
+  // Check if data exists in local storage
+  if (donationAmount && donationCurrency) {
+      // Populate the fields with the retrieved data
+      document.getElementById('amount').value = donationAmount;
+
+      // Set the selected value in the currency dropdown
+      const currencySelect = document.getElementById('currency');
+      for (let i = 0; i < currencySelect.options.length; i++) {
+          if (currencySelect.options[i].value === donationCurrency) {
+              currencySelect.selectedIndex = i;
+              break;
+          }
+      }
+  }
+});
