@@ -1401,12 +1401,6 @@ Navbar Area CSS
   margin-left: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  .navbar-style-three .navbar .others-options {
-    margin-left: 170px;
-  }
-
-}
 
 .navbar-style-three .navbar .others-options .language-switcher {
   position: relative;
