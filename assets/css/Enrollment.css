@@ -15,15 +15,25 @@ body {
   font-size: 16px;
   transition: all 0.3s;
   border: none;
+  color: #fff;
 }
+
 .btn-primary {
   background-color: #f07d1f;
-  color: #fff;
 }
 .btn-primary:hover {
   background-color: #e05c0d;
+}
+
+.btn-active {
+  background-color: #e05c0d; /* Yellowish color for active state */
   color: #fff;
 }
+.btn-inactive {
+  background-color: black; /* Default color for inactive state */
+  color: #fff;
+}
+
 .form-container {
   display: flex;
   justify-content: space-between;
@@ -74,7 +84,7 @@ body {
 .table-container {
   margin-top: 30px;
 }
-.be-a-student{
+.be-a-student {
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -136,38 +146,26 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .toggle-buttons .btn {
   border: 1px solid transparent;
 }
+
 .toggle-buttons .btn.active {
   background-color: #fc7a00;
   color: white;
-  border-color: #007bff;
 }
+
+.toggle-buttons .btn.inactive {
+  background-color: #f07d1f;
+  color: white;
+}
+
 .enroll {
   margin-top: 70px;
   margin-bottom: 70px;
 }
-.toggle-buttons .btn.inactive {
-  background-color: #007bff;
-  color: #ffffff;
-}
-.nav-links > ul > li > a {
-  color: white;
-}
 
-.form-section {
-  display: none;
-}
-.form-section.active {
-  display: block;
-}
-.btn-submit-enroll {
-  margin: 50px 0px;
-}
-/* .area-enrollment {
-  margin-top: 200px;
-} */
 @media screen and (max-width: 768px) {
   .area-enrollment {
     margin-top: 0px;
@@ -176,3 +174,22 @@ body {
     margin: 0px;
   }
 }
+
+.custom-select {
+  appearance: none;
+  background-color: white;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iOCIgdmlld0JveD0iMCAwIDE0IDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iIzAwMCIgZD0iTTAgMGwxLjQxMSAxLjQxMUw3IDYuODIybDUuNTg5LTUuNDExTDE0IDBsLTcgNyA3LTciLz48L3N2Zz4=");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+  padding-right: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-select:focus {
+  border-color: #86b7fe;
+  outline: none;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+

@@ -210,19 +210,19 @@
     position: relative;
     bottom: 0px;
   }
-  .event-slider.owl-theme .owl-nav [class*=owl-] {
+  .event-slider.owl-theme .owl-nav [class*="owl-"] {
     top: 40%;
     transform: translateY(-40%);
     left: 0;
   }
-  .event-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+  .event-slider.owl-theme .owl-nav [class*="owl-"].owl-next {
     left: auto;
     right: 0;
   }
   .testimonials-slider .testimonials-item h3 {
     margin: 25px 0 10px 0;
   }
-  .testimonials-slider.owl-theme .owl-nav [class*=owl-] {
+  .testimonials-slider.owl-theme .owl-nav [class*="owl-"] {
     display: none;
   }
   .testimonials-info {
@@ -274,12 +274,12 @@
   .banner-shape {
     z-index: -1;
   }
-  .banner-image-slider.owl-theme .owl-nav [class*=owl-] {
+  .banner-image-slider.owl-theme .owl-nav [class*="owl-"] {
     left: 25px;
     top: 90%;
     transform: translateY(-90%);
   }
-  .banner-image-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+  .banner-image-slider.owl-theme .owl-nav [class*="owl-"].owl-next {
     left: 75px;
   }
   .banner-video {
@@ -294,10 +294,16 @@
   .home-banner-three.home-banner-three-video .home-item .main-banner-content {
     margin-top: 35px;
   }
-  .home-banner-three.home-banner-three-video .home-item .main-banner-content span {
+  .home-banner-three.home-banner-three-video
+    .home-item
+    .main-banner-content
+    span {
     font-size: 30px;
   }
-  .home-banner-three.home-banner-three-video .home-item .main-banner-content h1 {
+  .home-banner-three.home-banner-three-video
+    .home-item
+    .main-banner-content
+    h1 {
     font-size: 30px;
   }
   .feature-content {
@@ -460,21 +466,26 @@
   .blog-details-desc .article-content h3 {
     font-size: 20px;
   }
-  blockquote, .blockquote {
+  blockquote,
+  .blockquote {
     padding: 25px !important;
   }
-  blockquote p, .blockquote p {
+  blockquote p,
+  .blockquote p {
     font-size: 16px !important;
   }
-  .slider_area .tp-caption.NotGeneric-Icon, .slider_area .tp-caption .NotGeneric-Icon {
+  .slider_area .tp-caption.NotGeneric-Icon,
+  .slider_area .tp-caption .NotGeneric-Icon {
     font-size: 20px !important;
     height: 50px !important;
   }
-  .slider_area .tp-caption.NotGeneric-Title, .slider_area .tp-caption .NotGeneric-Title {
+  .slider_area .tp-caption.NotGeneric-Title,
+  .slider_area .tp-caption .NotGeneric-Title {
     margin-bottom: 30px !important;
     font-size: 20px !important;
   }
-  .slider_area .tp-caption.NotGeneric-SubTitle, .slider_area .tp-caption .NotGeneric-SubTitle {
+  .slider_area .tp-caption.NotGeneric-SubTitle,
+  .slider_area .tp-caption .NotGeneric-SubTitle {
     font-size: 8px !important;
   }
   .ms-layer.sbut-one {
@@ -954,7 +965,7 @@
   .testimonials-slider .testimonials-item h3 {
     margin: 25px 0 10px 0;
   }
-  .testimonials-slider.owl-theme .owl-nav [class*=owl-] {
+  .testimonials-slider.owl-theme .owl-nav [class*="owl-"] {
     display: none;
   }
   .testimonials-info {
@@ -1014,12 +1025,12 @@
   .banner-shape {
     z-index: -1;
   }
-  .banner-image-slider.owl-theme .owl-nav [class*=owl-] {
+  .banner-image-slider.owl-theme .owl-nav [class*="owl-"] {
     left: 25px;
     top: 90%;
     transform: translateY(-90%);
   }
-  .banner-image-slider.owl-theme .owl-nav [class*=owl-].owl-next {
+  .banner-image-slider.owl-theme .owl-nav [class*="owl-"].owl-next {
     left: 75px;
   }
   .banner-video {
@@ -1159,7 +1170,8 @@
   .contact-area {
     margin-top: 30px;
   }
-  .slider_area .tp-caption.NotGeneric-Title, .slider_area .slider_area .tp-caption .NotGeneric-Title {
+  .slider_area .tp-caption.NotGeneric-Title,
+  .slider_area .slider_area .tp-caption .NotGeneric-Title {
     font-size: 45px !important;
   }
   .ms-layer.sbut-one {
@@ -1423,7 +1435,7 @@
   .event-slider .event-item .event-content .event-meta li {
     font-size: 14px;
   }
-  .testimonials-slider.owl-theme .owl-nav [class*=owl-] {
+  .testimonials-slider.owl-theme .owl-nav [class*="owl-"] {
     top: 178%;
     transform: translateY(-178%);
   }
@@ -1620,7 +1632,8 @@
   .donate-form-shape {
     width: unset;
   }
-  .ms-slide .ms-slide-layers, .ms-fixed-layers {
+  .ms-slide .ms-slide-layers,
+  .ms-fixed-layers {
     top: -50px;
   }
   .banner-slider-wrap {
@@ -1654,4 +1667,4 @@
   .copyright-logo img {
     max-width: 145px;
   }
-}/*# sourceMappingURL=responsive.css.map */
+} /*# sourceMappingURL=responsive.css.map */

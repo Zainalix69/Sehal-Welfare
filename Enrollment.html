@@ -35,7 +35,7 @@
     <div class="navbar-area navbar-style-three">
       <div class="huruma-nav">
         <div class="container">
-          <nav class="navbar navbar-expand-md navbar-light">
+          <nav class="navbar navbar-expand-md navbar-light navvvv">
             <!-- Navbar Brand (Logo) -->
             <a class="navbar-brand" href="index.html">
               <img src="assets/img/welfare-logo.png" class="white-logo" alt="logo" />
@@ -138,8 +138,8 @@
                   <h2>Be a Student</h2>
                 </div>
                 <form
-                  action="https://script.google.com/macros/s/AKfycbzDiYMJDYuYzyHw26TXAYbk0oJvYf6iMK-2uRWKmxHvP0Xfozychobx8sTlzfgbXAO-/exec"
-                  method="POST">
+                  action="https://script.google.com/macros/s/AKfycbxzeIBS5vpE4aMaB5e2MZKzUGwL-zImnkon9FYIeZDL9L3lfmPwBSECu_jaA6OoV6d_5A/exec"
+                  method="post">
                   <div class="form-group">
                     <label for="studentName">Name</label>
                     <input type="text" class="form-control" id="studentName" name="Name"
@@ -182,14 +182,125 @@
                   </div>
                   <div class="form-group">
                     <label for="studentCourse">Course</label>
-                    <select class="form-control" id="studentCourse" name="Course" required>
+                    <select class="form-control custom-select" id="studentCourse" name="Course" required>
                       <option value="">Select a course</option>
-                      <option value="it_basics">IT Basics</option>
-                      <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
-                      <option value="ui_ux_foundations">Foundations of UI/UX</option>
-                      <option value="data_science_introduction">Introduction to Data Science</option>
-                      <option value="web_development_basics">Basics of Web Development</option>
-                    </select>
+                  
+                      <optgroup label="Short Courses in Paramedics">
+                          <option value="bls">Basic Life Support (BLS)</option>
+                          <option value="emt">Emergency Medical Technician (EMT)</option>
+                          <option value="cna">Certified Nursing Assistant (CNA)</option>
+                          <option value="first_aid_cpr">First Aid and CPR</option>
+                          <option value="phlebotomy_technician">Phlebotomy Technician</option>
+                          <option value="ecg_technician">Electrocardiogram (ECG) Technician</option>
+                          <option value="medical_lab_technician">Medical Laboratory Technician</option>
+                          <option value="patient_care_technician">Patient Care Technician</option>
+                          <option value="sterile_processing_technician">Sterile Processing Technician</option>
+                          <option value="emergency_room_technician">Emergency Room Technician</option>
+                          <option value="ott">Operating Theatre Technician (OTT)</option>
+                          <option value="medical_billing_coding">Medical Billing and Coding</option>
+                          <option value="medical_transcription">Medical Transcription</option>
+                          <option value="infection_control_sterilization">Infection Control and Sterilization</option>
+                          <option value="pharmacy_technician">Pharmacy Technician</option>
+                      </optgroup>
+                  
+                      <optgroup label="Women Courses">
+                          <option value="sewing_tailoring">Sewing and Tailoring</option>
+                          <option value="fashion_design">Fashion Design</option>
+                          <option value="handicrafts_embroidery">Handicrafts and Embroidery</option>
+                          <option value="beautician_cosmetology">Beautician and Cosmetology</option>
+                          <option value="cooking_baking">Cooking and Baking</option>
+                          <option value="home_food_business">Home-based Food Business</option>
+                          <option value="graphic_design">Graphic Design</option>
+                          <option value="digital_marketing">Digital Marketing</option>
+                          <option value="data_entry_office_management">Data Entry and Office Management</option>
+                          <option value="web_development">Web Development</option>
+                          <option value="mobile_app_development">Mobile App Development</option>
+                          <option value="computer_programming">Computer Programming</option>
+                          <option value="ecommerce_management">E-commerce Management</option>
+                          <option value="online_freelancing">Online Freelancing</option>
+                          <option value="social_media_management">Social Media Management</option>
+                          <option value="accounting_bookkeeping">Accounting and Bookkeeping</option>
+                          <option value="customer_service_training">Customer Service Training</option>
+                          <option value="nursing_healthcare_training">Nursing and Healthcare Training</option>
+                          <option value="childcare_early_education">Childcare and Early Education</option>
+                          <option value="home_tutoring">Home-based Tutoring</option>
+                          <option value="event_planning_management">Event Planning and Management</option>
+                          <option value="interior_design">Interior Design</option>
+                          <option value="photography_videography">Photography and Videography</option>
+                          <option value="jewelry_making">Jewelry Making</option>
+                          <option value="textile_design_production">Textile Design and Production</option>
+                      </optgroup>
+                  
+                      <optgroup label="Digital Skills">
+                          <option value="basic_computer_skills">Basic Computer Skills</option>
+                          <option value="microsoft_office_suite">Microsoft Office Suite</option>
+                          <option value="email_internet_usage">Email and Internet Usage</option>
+                          <option value="digital_marketing">Digital Marketing</option>
+                          <option value="social_media_management">Social Media Management</option>
+                          <option value="graphic_design">Graphic Design</option>
+                          <option value="web_development">Web Development</option>
+                          <option value="cybersecurity">Cybersecurity</option>
+                          <option value="data_analysis">Data Analysis</option>
+                          <option value="coding_programming">Coding and Programming</option>
+                          <option value="cloud_computing">Cloud Computing</option>
+                          <option value="ecommerce">E-commerce</option>
+                          <option value="seo">Search Engine Optimization (SEO)</option>
+                          <option value="content_creation">Content Creation</option>
+                          <option value="video_editing">Video Editing</option>
+                          <option value="online_collaboration_tools">Online Collaboration Tools</option>
+                          <option value="digital_project_management">Digital Project Management</option>
+                          <option value="ux_design">User Experience (UX) Design</option>
+                          <option value="mobile_app_development">Mobile App Development</option>
+                          <option value="ai_ml">Artificial Intelligence and Machine Learning</option>
+                      </optgroup>
+                  
+                      <optgroup label="Soft Skills">
+                          <option value="communication_skills">Communication Skills</option>
+                          <option value="leadership_skills">Leadership Skills</option>
+                          <option value="teamwork_collaboration">Teamwork and Collaboration</option>
+                          <option value="problem_solving">Problem-Solving</option>
+                          <option value="time_management">Time Management</option>
+                          <option value="critical_thinking">Critical Thinking</option>
+                          <option value="emotional_intelligence">Emotional Intelligence</option>
+                          <option value="conflict_resolution">Conflict Resolution</option>
+                          <option value="adaptability_flexibility">Adaptability and Flexibility</option>
+                          <option value="decision_making">Decision Making</option>
+                          <option value="negotiation_skills">Negotiation Skills</option>
+                          <option value="public_speaking">Public Speaking</option>
+                          <option value="active_listening">Active Listening</option>
+                          <option value="interpersonal_skills">Interpersonal Skills</option>
+                          <option value="creativity_innovation">Creativity and Innovation</option>
+                          <option value="customer_service_skills">Customer Service Skills</option>
+                          <option value="stress_management">Stress Management</option>
+                          <option value="networking_skills">Networking Skills</option>
+                          <option value="persuasion_influencing">Persuasion and Influencing Skills</option>
+                          <option value="professional_etiquette">Professional Etiquette</option>
+                      </optgroup>
+                  
+                      <optgroup label="Vocational Skills">
+                          <option value="carpentry">Carpentry</option>
+                          <option value="plumbing">Plumbing</option>
+                          <option value="electrical_installation">Electrical Installation</option>
+                          <option value="welding">Welding</option>
+                          <option value="automotive_repair">Automotive Repair</option>
+                          <option value="hvac">HVAC (Heating, Ventilation, and Air Conditioning)</option>
+                          <option value="culinary_arts">Culinary Arts</option>
+                          <option value="cosmetology">Cosmetology</option>
+                          <option value="masonry">Masonry</option>
+                          <option value="tailoring_dressmaking">Tailoring and Dressmaking</option>
+                          <option value="baking_pastry_arts">Baking and Pastry Arts</option>
+                          <option value="gardening_landscaping">Gardening and Landscaping</option>
+                          <option value="housekeeping">Housekeeping</option>
+                          <option value="nursing_patient_care">Nursing and Patient Care</option>
+                          <option value="pharmacy_technician">Pharmacy Technician</option>
+                          <option value="dental_assisting">Dental Assisting</option>
+                          <option value="childcare_early_education">Childcare and Early Childhood Education</option>
+                          <option value="hospitality_management">Hospitality Management</option>
+                          <option value="retail_management">Retail Management</option>
+                          <option value="construction_management">Construction Management</option>
+                      </optgroup>
+                  </select>
+                  
                   </div>
                   <!-- <div class="form-group">
                     <label for="studentImage">Upload Student Image</label>
@@ -202,12 +313,12 @@
               </div>
 
               <!-- Teacher Enrollment -->
-              <div id="teacherForm" class="form-section" style="display:none;">
+              <div id="teacherForm" name="teacher" class="form-section" style="display:none;">
                 <div class="form-header">
                   <h2>Be a Teacher</h2>
                 </div>
                 <form
-                  action="https://script.google.com/macros/s/AKfycbxjisdunQmXRzHHXDx5u5Mg4AimyAzPUE360QQPdJ9utsihRr6kmVW2jIdi3rEcSYkm/exec"
+                  action="https://script.google.com/macros/s/AKfycbxglstXZG7O4lfQ0sXP5I22ZOan1S2tD_36nZgqLl0Wj1O73lQ85LWcVU50oCgxb7Fj1g/exec"
                   method="POST" enctype="multipart/form-data">
                   <div class="form-group">
                     <label for="teacherName">Name</label>
@@ -236,14 +347,125 @@
                   </div>
                   <div class="form-group">
                     <label for="teacherCourses">Courses</label>
-                    <select class="form-control" id="teacherCourses" name="Course" required>
-                      <option value="">Select a course</option>
-                      <option value="it_basics">IT Basics</option>
-                      <option value="graphic_designing_intro">Introduction to Graphic Designing</option>
-                      <option value="ui_ux_foundations">Foundations of UI/UX</option>
-                      <option value="basic_computer_course">Basic Computer Course</option>
-                      <option value="app_development_intro">Introduction to App Development</option>
+                    <select class="form-control custom-select" id="teacherCourses" name="Course" required>
+                        <option value="">Select a course</option>
+                    
+                        <optgroup label="Short Courses in Paramedics">
+                            <option value="bls">Basic Life Support (BLS)</option>
+                            <option value="emt">Emergency Medical Technician (EMT)</option>
+                            <option value="cna">Certified Nursing Assistant (CNA)</option>
+                            <option value="first_aid_cpr">First Aid and CPR</option>
+                            <option value="phlebotomy_technician">Phlebotomy Technician</option>
+                            <option value="ecg_technician">Electrocardiogram (ECG) Technician</option>
+                            <option value="medical_lab_technician">Medical Laboratory Technician</option>
+                            <option value="patient_care_technician">Patient Care Technician</option>
+                            <option value="sterile_processing_technician">Sterile Processing Technician</option>
+                            <option value="emergency_room_technician">Emergency Room Technician</option>
+                            <option value="ott">Operating Theatre Technician (OTT)</option>
+                            <option value="medical_billing_coding">Medical Billing and Coding</option>
+                            <option value="medical_transcription">Medical Transcription</option>
+                            <option value="infection_control_sterilization">Infection Control and Sterilization</option>
+                            <option value="pharmacy_technician">Pharmacy Technician</option>
+                        </optgroup>
+                    
+                        <optgroup label="Women Courses">
+                            <option value="sewing_tailoring">Sewing and Tailoring</option>
+                            <option value="fashion_design">Fashion Design</option>
+                            <option value="handicrafts_embroidery">Handicrafts and Embroidery</option>
+                            <option value="beautician_cosmetology">Beautician and Cosmetology</option>
+                            <option value="cooking_baking">Cooking and Baking</option>
+                            <option value="home_food_business">Home-based Food Business</option>
+                            <option value="graphic_design">Graphic Design</option>
+                            <option value="digital_marketing">Digital Marketing</option>
+                            <option value="data_entry_office_management">Data Entry and Office Management</option>
+                            <option value="web_development">Web Development</option>
+                            <option value="mobile_app_development">Mobile App Development</option>
+                            <option value="computer_programming">Computer Programming</option>
+                            <option value="ecommerce_management">E-commerce Management</option>
+                            <option value="online_freelancing">Online Freelancing</option>
+                            <option value="social_media_management">Social Media Management</option>
+                            <option value="accounting_bookkeeping">Accounting and Bookkeeping</option>
+                            <option value="customer_service_training">Customer Service Training</option>
+                            <option value="nursing_healthcare_training">Nursing and Healthcare Training</option>
+                            <option value="childcare_early_education">Childcare and Early Education</option>
+                            <option value="home_tutoring">Home-based Tutoring</option>
+                            <option value="event_planning_management">Event Planning and Management</option>
+                            <option value="interior_design">Interior Design</option>
+                            <option value="photography_videography">Photography and Videography</option>
+                            <option value="jewelry_making">Jewelry Making</option>
+                            <option value="textile_design_production">Textile Design and Production</option>
+                        </optgroup>
+                    
+                        <optgroup label="Digital Skills">
+                            <option value="basic_computer_skills">Basic Computer Skills</option>
+                            <option value="microsoft_office_suite">Microsoft Office Suite</option>
+                            <option value="email_internet_usage">Email and Internet Usage</option>
+                            <option value="digital_marketing">Digital Marketing</option>
+                            <option value="social_media_management">Social Media Management</option>
+                            <option value="graphic_design">Graphic Design</option>
+                            <option value="web_development">Web Development</option>
+                            <option value="cybersecurity">Cybersecurity</option>
+                            <option value="data_analysis">Data Analysis</option>
+                            <option value="coding_programming">Coding and Programming</option>
+                            <option value="cloud_computing">Cloud Computing</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="seo">Search Engine Optimization (SEO)</option>
+                            <option value="content_creation">Content Creation</option>
+                            <option value="video_editing">Video Editing</option>
+                            <option value="online_collaboration_tools">Online Collaboration Tools</option>
+                            <option value="digital_project_management">Digital Project Management</option>
+                            <option value="ux_design">User Experience (UX) Design</option>
+                            <option value="mobile_app_development">Mobile App Development</option>
+                            <option value="ai_ml">Artificial Intelligence and Machine Learning</option>
+                        </optgroup>
+                    
+                        <optgroup label="Soft Skills">
+                            <option value="communication_skills">Communication Skills</option>
+                            <option value="leadership_skills">Leadership Skills</option>
+                            <option value="teamwork_collaboration">Teamwork and Collaboration</option>
+                            <option value="problem_solving">Problem-Solving</option>
+                            <option value="time_management">Time Management</option>
+                            <option value="critical_thinking">Critical Thinking</option>
+                            <option value="emotional_intelligence">Emotional Intelligence</option>
+                            <option value="conflict_resolution">Conflict Resolution</option>
+                            <option value="adaptability_flexibility">Adaptability and Flexibility</option>
+                            <option value="decision_making">Decision Making</option>
+                            <option value="negotiation_skills">Negotiation Skills</option>
+                            <option value="public_speaking">Public Speaking</option>
+                            <option value="active_listening">Active Listening</option>
+                            <option value="interpersonal_skills">Interpersonal Skills</option>
+                            <option value="creativity_innovation">Creativity and Innovation</option>
+                            <option value="customer_service_skills">Customer Service Skills</option>
+                            <option value="stress_management">Stress Management</option>
+                            <option value="networking_skills">Networking Skills</option>
+                            <option value="persuasion_influencing">Persuasion and Influencing Skills</option>
+                            <option value="professional_etiquette">Professional Etiquette</option>
+                        </optgroup>
+                    
+                        <optgroup label="Vocational Skills">
+                            <option value="carpentry">Carpentry</option>
+                            <option value="plumbing">Plumbing</option>
+                            <option value="electrical_installation">Electrical Installation</option>
+                            <option value="welding">Welding</option>
+                            <option value="automotive_repair">Automotive Repair</option>
+                            <option value="hvac">HVAC (Heating, Ventilation, and Air Conditioning)</option>
+                            <option value="culinary_arts">Culinary Arts</option>
+                            <option value="cosmetology">Cosmetology</option>
+                            <option value="masonry">Masonry</option>
+                            <option value="tailoring_dressmaking">Tailoring and Dressmaking</option>
+                            <option value="baking_pastry_arts">Baking and Pastry Arts</option>
+                            <option value="gardening_landscaping">Gardening and Landscaping</option>
+                            <option value="housekeeping">Housekeeping</option>
+                            <option value="nursing_patient_care">Nursing and Patient Care</option>
+                            <option value="pharmacy_technician">Pharmacy Technician</option>
+                            <option value="dental_assisting">Dental Assisting</option>
+                            <option value="childcare_early_education">Childcare and Early Childhood Education</option>
+                            <option value="hospitality_management">Hospitality Management</option>
+                            <option value="retail_management">Retail Management</option>
+                            <option value="construction_management">Construction Management</option>
+                        </optgroup>
                     </select>
+                    
                   </div>
                   <div class="form-group" id="customCourseGroup" style="display: none;">
                     <label for="customCourse">Custom Course</label>
@@ -260,7 +482,6 @@
                       <option value="phd">Ph.D.</option>
                       <option value="diploma">Diploma</option>
                       <option value="certificate">Certificate</option>
-                      <!-- Add more qualifications as needed -->
                     </select>
                   </div>
                   <div class="form-group">
@@ -452,12 +673,15 @@
 
   <!-- Enrollment Form Toggle Script -->
   <script>
-    function showForm(formType) {
-      document.getElementById('studentForm').style.display = formType === 'student' ? 'block' : 'none';
-      document.getElementById('teacherForm').style.display = formType === 'teacher' ? 'block' : 'none';
-      document.getElementById('studentButton').classList.toggle('active', formType === 'student');
-      document.getElementById('teacherButton').classList.toggle('active', formType === 'teacher');
-    }
+function showForm(formType) {
+  document.getElementById('studentForm').style.display = formType === 'student' ? 'block' : 'none';
+  document.getElementById('teacherForm').style.display = formType === 'teacher' ? 'block' : 'none';
+  document.getElementById('studentButton').classList.toggle('btn-active', formType === 'student');
+  document.getElementById('studentButton').classList.toggle('btn-inactive', formType !== 'student');
+  document.getElementById('teacherButton').classList.toggle('btn-active', formType === 'teacher');
+  document.getElementById('teacherButton').classList.toggle('btn-inactive', formType !== 'teacher');
+}
+
   </script>
 </body>
 
