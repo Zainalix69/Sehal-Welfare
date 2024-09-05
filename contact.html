@@ -285,7 +285,7 @@
               <h3>WANT TO BECOME A VOLUNTEER OR COMPLAIN?</h3>
             
             </div>
-            <form id="contactForms" method="post" action="https://script.google.com/macros/s/AKfycbwxeRJGbBeoXdxjgq-WkDsQUY4BkyfOTA_aJ_YF-vDlEccgEUZYSgxCqbLbynMtsWU/exec" novalidate>
+            <form id="contactForms" method="post" action="https://script.google.com/macros/s/AKfycbz6uSeTSQrfq7iP2y7x2j8GmIAN6gH_0DwMvUx7Z9NHtX50Bi2I_-H35nrOBbYnCgFY/exec" novalidate>
               <div class="row">
                 <div class="col-lg-6 col-md-6">
                   <div class="form-group">
@@ -349,7 +349,7 @@
                       <span></span>
                     </button>
                   </div>
-                  <div id="msgSubmit" class="h3 text-center"></div>
+                  <div id="msgSubmit"  class="h3 text-center"></div>
                   <div class="clearfix"></div>
                 </div>
               </div>
@@ -530,7 +530,23 @@
     <i class="bx bx-chevron-up"></i>
   </div>
   <!-- End Go Top Section -->
+<script>
+const scriptURL = 'https://script.google.com/macros/s/AKfycbz6uSeTSQrfq7iP2y7x2j8GmIAN6gH_0DwMvUx7Z9NHtX50Bi2I_-H35nrOBbYnCgFY/exec'
 
+
+const form = document.forms['contactForms']
+
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+  .then(response => alert("Thank you! your form is submitted successfully." ))
+  .then(() => { window.location.reload(); })
+  .catch(error => console.error('Error!', error.message))
+})
+
+  
+</script>
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/jquery.meanmenu.js"></script>

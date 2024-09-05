@@ -137,8 +137,8 @@
                   <h2>Be a Student</h2>
                 </div>
                 <form
-                id="form"
-                action="https://script.google.com/macros/s/AKfycbw4KtD9HmLPaSVtVv_RfmvzIxDK2Swq589hd5gMXrSU2E-7sat8SDK7iTH0ByWIQQ/exec"
+                id="form1"
+                action="https://script.google.com/macros/s/AKfycbwMA56LLuCt8Y6gESOEpBC3Z-f5ZBcj9gbouoZ9yQI1TlthLxp6xdY4uTCueeAwDeljdA/exec"
                     method="post">
               
                   <div class="form-group">
@@ -328,7 +328,8 @@
                   <h2>Be a Teacher</h2>
                 </div>
                 <form
-                  action="https://script.google.com/macros/s/AKfycbzdgJfVyp-OIC_vvzQgJ6BAdGpB9H9ZOdLGOwo_mCrqHeejWK0TB92fg7-v3geuLcU/exec"
+                id="form2"
+                  action="https://script.google.com/macros/s/AKfycbyKmKW8XjIgDFV0nlc5hz78gGn9SDHLBg0X77inlYKwgkC8ick9l9Hb6u6fe_3WXlw_sg/exec"
                   method="POST" enctype="multipart/form-data">
                   <div class="form-group">
                     <label for="teacherName">Name</label>
@@ -665,7 +666,36 @@
   <a href="#" class="scroll-to-top">
     <i class="bx bxs-up-arrow-alt"></i>
   </a>
-
+  <script>
+    const scriptURL1 = "https://script.google.com/macros/s/AKfycbwMA56LLuCt8Y6gESOEpBC3Z-f5ZBcj9gbouoZ9yQI1TlthLxp6xdY4uTCueeAwDeljdA/exec";
+    const form1 = document.forms['form1'];
+    
+    form1.addEventListener('submit', e => {
+      e.preventDefault(); 
+      fetch(scriptURL1, { method: 'POST', body: new FormData(form1) })
+        .then(response => response.text()) 
+        .then(result => {
+          alert("Thank you! Your form is submitted successfully.");
+          form1.reset();
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+  
+    const scriptURL2 = "https://script.google.com/macros/s/AKfycbyKmKW8XjIgDFV0nlc5hz78gGn9SDHLBg0X77inlYKwgkC8ick9l9Hb6u6fe_3WXlw_sg/exec";
+    const form2 = document.forms['form2'];
+    
+    form2.addEventListener('submit', e => {
+      e.preventDefault();
+      fetch(scriptURL2, { method: 'POST', body: new FormData(form2) })
+        .then(response => response.text()) 
+        .then(result => {
+          alert("Thank you! Your form is submitted successfully.");
+          form2.reset(); 
+        })
+        .catch(error => console.error('Error!', error.message));
+    });
+  </script>
+  
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
