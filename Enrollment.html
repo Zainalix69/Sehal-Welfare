@@ -137,8 +137,10 @@
                   <h2>Be a Student</h2>
                 </div>
                 <form
-                  action="https://script.google.com/macros/s/AKfycbxzeIBS5vpE4aMaB5e2MZKzUGwL-zImnkon9FYIeZDL9L3lfmPwBSECu_jaA6OoV6d_5A/exec"
-                  method="post">
+                id="form"
+                action="https://script.google.com/macros/s/AKfycbw4KtD9HmLPaSVtVv_RfmvzIxDK2Swq589hd5gMXrSU2E-7sat8SDK7iTH0ByWIQQ/exec"
+                    method="post">
+              
                   <div class="form-group">
                     <label for="studentName">Name</label>
                     <input type="text" class="form-control" id="studentName" name="Name"
@@ -299,16 +301,25 @@
                           <option value="construction_management">Construction Management</option>
                       </optgroup>
                   </select>
-                  
                   </div>
-                  <!-- <div class="form-group">
-                    <label for="studentImage">Upload Student Image</label>
-                    <input type="file" class="form-control-file" id="studentImage" name="StudentImage" />
-                  </div> -->
                   <div class="form-group text-center">
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" id="submit-button" class="btn btn-primary">Submit</button>
                   </div>
+                  <p id="form-success-message" class="text-center"></p>
                 </form>
+                <div
+                id="message"
+                style="
+                  display: none;
+                  margin: 20px;
+                  font-weight: bold;
+                  color: green;
+                  padding: 8px;
+                  background-color: beige;
+                  border-radius: 4px;
+                  border-color: aquamarine;
+                "
+              ></div>
               </div>
 
               <!-- Teacher Enrollment -->
@@ -317,7 +328,7 @@
                   <h2>Be a Teacher</h2>
                 </div>
                 <form
-                  action="https://script.google.com/macros/s/AKfycbxglstXZG7O4lfQ0sXP5I22ZOan1S2tD_36nZgqLl0Wj1O73lQ85LWcVU50oCgxb7Fj1g/exec"
+                  action="https://script.google.com/macros/s/AKfycbzdgJfVyp-OIC_vvzQgJ6BAdGpB9H9ZOdLGOwo_mCrqHeejWK0TB92fg7-v3geuLcU/exec"
                   method="POST" enctype="multipart/form-data">
                   <div class="form-group">
                     <label for="teacherName">Name</label>
@@ -651,12 +662,10 @@
     <!-- Footer Area End -->
   </div>
 
-  <!-- Scroll to Top -->
   <a href="#" class="scroll-to-top">
     <i class="bx bxs-up-arrow-alt"></i>
   </a>
 
-  <!-- jQuery, Bootstrap JS, and other scripts -->
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/owl.carousel.min.js"></script>
@@ -669,19 +678,7 @@
   <script src="assets/js/odometer.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/custom.js"></script>
-
-  <!-- Enrollment Form Toggle Script -->
-  <script>
-function showForm(formType) {
-  document.getElementById('studentForm').style.display = formType === 'student' ? 'block' : 'none';
-  document.getElementById('teacherForm').style.display = formType === 'teacher' ? 'block' : 'none';
-  document.getElementById('studentButton').classList.toggle('btn-active', formType === 'student');
-  document.getElementById('studentButton').classList.toggle('btn-inactive', formType !== 'student');
-  document.getElementById('teacherButton').classList.toggle('btn-active', formType === 'teacher');
-  document.getElementById('teacherButton').classList.toggle('btn-inactive', formType !== 'teacher');
-}
-
-  </script>
+  <script src="/assets/js/Enrollment.js"></script>
 </body>
 
 </html>

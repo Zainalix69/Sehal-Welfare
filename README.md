@@ -1,2 +1,0 @@
-# sehal-welfare-foundation
-#sehal
