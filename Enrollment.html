@@ -329,7 +329,7 @@
                 </div>
                 <form
                 id="form2"
-                  action="https://script.google.com/macros/s/AKfycbyKmKW8XjIgDFV0nlc5hz78gGn9SDHLBg0X77inlYKwgkC8ick9l9Hb6u6fe_3WXlw_sg/exec"
+                  action="https://script.google.com/macros/s/AKfycbx1f7dfkiKCha0LQL0y4e3dSRmkZEVzYGtCa4pxZXiR7nmvqp2pu25gqLz5EsR0dDMUYg/exec"
                   method="POST" enctype="multipart/form-data">
                   <div class="form-group">
                     <label for="teacherName">Name</label>
@@ -496,10 +496,13 @@
                     </select>
                   </div>
                   <div class="form-group">
-                    <label for="cvUpload">Upload CV</label>
-                    <input type="file" class="form-control" id="cvUpload" name="CVUpload" accept=".pdf,.doc,.docx"
-                      required />
+                    <label for="cvLink">Google Drive CV Link</label>
+                    <input type="url" class="form-control" id="cvLink" name="cvLink" placeholder="Enter Google Drive link" required />
+                    <small class="form-text text-muted">
+                      Please ensure the Google Drive link is public or has appropriate sharing settings.
+                    </small>
                   </div>
+                  
                   <div class="btn-center btn-submit-enroll">
                     <button type="submit" class="btn btn-primary">Submit</button>
                   </div>
@@ -681,7 +684,7 @@
         .catch(error => console.error('Error!', error.message));
     });
   
-    const scriptURL2 = "https://script.google.com/macros/s/AKfycbyKmKW8XjIgDFV0nlc5hz78gGn9SDHLBg0X77inlYKwgkC8ick9l9Hb6u6fe_3WXlw_sg/exec";
+    const scriptURL2 = "https://script.google.com/macros/s/AKfycbx1f7dfkiKCha0LQL0y4e3dSRmkZEVzYGtCa4pxZXiR7nmvqp2pu25gqLz5EsR0dDMUYg/exec";
     const form2 = document.forms['form2'];
     
     form2.addEventListener('submit', e => {
